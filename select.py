@@ -1,8 +1,10 @@
+import base64
 import copy
 import json
 import time
-import base64
+
 from Crypto.Cipher import AES
+
 
 def _pad_pkcs7(data: bytes) -> bytes:
     pad_len = 16 - (len(data) % 16)
@@ -43,22 +45,21 @@ def _check(session, course, xh):
     res = session.post("https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/elective/studentstatus.do", data={"studentCode": xh, "teachingClassId": course["data"]["teachingClassId"], "type": "0"}, )
     return res
 
-def watch(clist, session, xh):
+def watch(idlist, clist, session, xh):
     with open('config.json', 'r') as f:
         config = json.load(f)
     W_TIME = config['WAIT_TIME']
     stat = [True for _ in range(len(clist))]
-    cnt = 0
     while any(stat):
         for i, course in enumerate(clist):
             if not stat[i]:
+                print(f"Class {idlist[i]} Success!")
                 continue
             try:
-                time.sleep(W_TIME)
                 status = _select(session, course).json()
                 msg = status['msg']
-                print(f"{cnt}: {msg}")
-                cnt += 1
+                print(f'Class {idlist[i]} message: {msg}')
+                time.sleep(W_TIME)
             except:
                 continue
             msg = status['msg']
@@ -70,7 +71,7 @@ def watch(clist, session, xh):
                 except:
                     pass
                 stat[i] = False
-                print(f"Success: {course}")
+                print(f"Class {idlist[i]} Success!")
 
 
 def select_from_alternative_list(clist, session, xh):

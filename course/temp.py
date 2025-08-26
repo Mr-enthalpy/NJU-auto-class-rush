@@ -20,7 +20,7 @@ for group, course_id in TRANS.items():
             teachingclassid = number_tag['data-teachingclassid']
 
             result[number] = {
-                'teachingclassid': teachingclassid,
+                'teachingClassId': teachingclassid,
                 'courseKind': course_id,
                 'teachingClassType': group
             }
@@ -29,5 +29,5 @@ for group, course_id in TRANS.items():
         continue
 
 
-with open('courses.json', 'w', encoding='utf-8') as f:
+with open('../courses.json', 'w', encoding='utf-8') as f:
     json.dump(result, f, ensure_ascii=False, indent=4)
