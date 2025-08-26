@@ -1,0 +1,6922 @@
+{
+    "00040220A": {
+        "teachingclassid": "20252026100040220A05",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040240": {
+        "teachingclassid": "2025202610004024006",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040050A": {
+        "teachingclassid": "20252026100040050A09",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00042030": {
+        "teachingclassid": "2025202610004203006",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040020A": {
+        "teachingclassid": "20252026100040020A11",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040280A": {
+        "teachingclassid": "20252026100040280A06",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040090A": {
+        "teachingclassid": "20252026100040090A09",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040030A": {
+        "teachingclassid": "20252026100040030A14",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040230A": {
+        "teachingclassid": "20252026100040230A25",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040070A": {
+        "teachingclassid": "20252026100040070A11",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00042050": {
+        "teachingclassid": "2025202610004205029",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040100A": {
+        "teachingclassid": "20252026100040100A04",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00042070": {
+        "teachingclassid": "2025202610004207001",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040110A": {
+        "teachingclassid": "20252026100040110A06",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00042100A": {
+        "teachingclassid": "20252026100042100A02",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040140": {
+        "teachingclassid": "2025202610004014010",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00042120A": {
+        "teachingclassid": "20252026100042120A01",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00042020": {
+        "teachingclassid": "2025202610004202001",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040290A": {
+        "teachingclassid": "20252026100040290A09",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040210": {
+        "teachingclassid": "2025202610004021001",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040460": {
+        "teachingclassid": "2025202610004046001",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "00040120A": {
+        "teachingclassid": "20252026100040120A05",
+        "courseKind": "2",
+        "teachingClassType": "TY"
+    },
+    "78006570": {
+        "teachingclassid": "2025202617800657001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001920": {
+        "teachingclassid": "2025202616100192001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006220": {
+        "teachingclassid": "2025202617800622001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005690": {
+        "teachingclassid": "2025202617800569001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005720": {
+        "teachingclassid": "2025202617800572001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61100010": {
+        "teachingclassid": "2025202616110001001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78000400": {
+        "teachingclassid": "2025202617800040001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "77002860": {
+        "teachingclassid": "2025202617700286001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78001070": {
+        "teachingclassid": "2025202617800107002",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78004120": {
+        "teachingclassid": "2025202617800412001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005000": {
+        "teachingclassid": "2025202617800500001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005020": {
+        "teachingclassid": "2025202617800502003",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005040": {
+        "teachingclassid": "2025202617800504001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005290": {
+        "teachingclassid": "2025202617800529001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005340": {
+        "teachingclassid": "2025202617800534001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006010": {
+        "teachingclassid": "2025202617800601001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006630": {
+        "teachingclassid": "2025202617800663002",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006700S": {
+        "teachingclassid": "20252026178006700S02",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001970": {
+        "teachingclassid": "2025202616100197001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005700": {
+        "teachingclassid": "2025202617800570001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61000810": {
+        "teachingclassid": "2025202616100081001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006030": {
+        "teachingclassid": "2025202617800603001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006120": {
+        "teachingclassid": "2025202617800612001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001210": {
+        "teachingclassid": "2025202616100121001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78003470": {
+        "teachingclassid": "2025202617800347001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006080": {
+        "teachingclassid": "2025202617800608006",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005350": {
+        "teachingclassid": "2025202617800535001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61000270": {
+        "teachingclassid": "2025202616100027001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78001040": {
+        "teachingclassid": "2025202617800104002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "78004540": {
+        "teachingclassid": "2025202617800454001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006420": {
+        "teachingclassid": "2025202617800642002",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "77002870": {
+        "teachingclassid": "2025202617700287001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "77003350": {
+        "teachingclassid": "2025202617700335001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78003740": {
+        "teachingclassid": "2025202617800374001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78004420I": {
+        "teachingclassid": "20252026178004420I01",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005880": {
+        "teachingclassid": "2025202617800588001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006040": {
+        "teachingclassid": "2025202617800604001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006240": {
+        "teachingclassid": "2025202617800624001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006490": {
+        "teachingclassid": "2025202617800649001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78004190": {
+        "teachingclassid": "2025202617800419001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006300": {
+        "teachingclassid": "2025202617800630001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001710": {
+        "teachingclassid": "2025202616100171001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001960": {
+        "teachingclassid": "2025202616100196001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005710": {
+        "teachingclassid": "2025202617800571001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006250": {
+        "teachingclassid": "2025202617800625001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006230": {
+        "teachingclassid": "2025202617800623001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006640": {
+        "teachingclassid": "2025202617800664001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61000720A": {
+        "teachingclassid": "20252026161000720A01",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001160": {
+        "teachingclassid": "2025202616100116001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001840": {
+        "teachingclassid": "2025202616100184001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "77001560": {
+        "teachingclassid": "2025202617700156001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006210": {
+        "teachingclassid": "2025202617800621001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001940": {
+        "teachingclassid": "2025202616100194001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006320": {
+        "teachingclassid": "2025202617800632001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006650S": {
+        "teachingclassid": "20252026178006650S01",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006660": {
+        "teachingclassid": "2025202617800666001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61000510": {
+        "teachingclassid": "2025202616100051003",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78003940": {
+        "teachingclassid": "2025202617800394001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005740": {
+        "teachingclassid": "2025202617800574001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001110": {
+        "teachingclassid": "2025202616100111001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001460": {
+        "teachingclassid": "2025202616100146001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005320": {
+        "teachingclassid": "2025202617800532001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005620": {
+        "teachingclassid": "2025202617800562001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006190": {
+        "teachingclassid": "2025202617800619001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006200": {
+        "teachingclassid": "2025202617800620001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78000560": {
+        "teachingclassid": "2025202617800056001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001580": {
+        "teachingclassid": "2025202616100158001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78000390": {
+        "teachingclassid": "2025202617800039001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78003950": {
+        "teachingclassid": "2025202617800395001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006530": {
+        "teachingclassid": "2025202617800653001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "77003240": {
+        "teachingclassid": "2025202617700324001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005680": {
+        "teachingclassid": "2025202617800568001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001370": {
+        "teachingclassid": "2025202616100137001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001070": {
+        "teachingclassid": "2025202616100107002",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "77003460": {
+        "teachingclassid": "2025202617700346001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78001160": {
+        "teachingclassid": "2025202617800116001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78003790": {
+        "teachingclassid": "2025202617800379001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005750": {
+        "teachingclassid": "2025202617800575001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006070": {
+        "teachingclassid": "2025202617800607002",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006180": {
+        "teachingclassid": "2025202617800618001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006450": {
+        "teachingclassid": "2025202617800645001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006500": {
+        "teachingclassid": "2025202617800650001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005600": {
+        "teachingclassid": "2025202617800560001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78004990": {
+        "teachingclassid": "2025202617800499001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001300": {
+        "teachingclassid": "2025202616100130001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001660": {
+        "teachingclassid": "2025202616100166001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78004240": {
+        "teachingclassid": "2025202617800424001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005660": {
+        "teachingclassid": "2025202617800566001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005810": {
+        "teachingclassid": "2025202617800581001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006520": {
+        "teachingclassid": "2025202617800652001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78000470": {
+        "teachingclassid": "2025202617800047001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006710": {
+        "teachingclassid": "2025202617800671001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005310": {
+        "teachingclassid": "2025202617800531001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006280": {
+        "teachingclassid": "2025202617800628001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61000370": {
+        "teachingclassid": "2025202616100037001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61002010": {
+        "teachingclassid": "2025202616100201001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "77003260": {
+        "teachingclassid": "2025202617700326001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006330": {
+        "teachingclassid": "2025202617800633001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61000530": {
+        "teachingclassid": "2025202616100053001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001890": {
+        "teachingclassid": "2025202616100189002",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78001780": {
+        "teachingclassid": "2025202617800178001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61000750": {
+        "teachingclassid": "2025202616100075002",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61000160": {
+        "teachingclassid": "2025202616100016001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61000820": {
+        "teachingclassid": "2025202616100082001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001340": {
+        "teachingclassid": "2025202616100134001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78005830": {
+        "teachingclassid": "2025202617800583001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78006380": {
+        "teachingclassid": "2025202617800638001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61000970": {
+        "teachingclassid": "2025202616100097001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001600": {
+        "teachingclassid": "2025202616100160001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001280": {
+        "teachingclassid": "2025202616100128001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "61001510": {
+        "teachingclassid": "2025202616100151001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "78004580": {
+        "teachingclassid": "2025202617800458001",
+        "courseKind": "4",
+        "teachingClassType": "GG01"
+    },
+    "00371880": {
+        "teachingclassid": "2025202610037188001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372490": {
+        "teachingclassid": "2025202610037249001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00341550": {
+        "teachingclassid": "2025202610034155001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00340070": {
+        "teachingclassid": "2025202610034007002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372050": {
+        "teachingclassid": "2025202610037205001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "37100700": {
+        "teachingclassid": "2025202613710070001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00300120": {
+        "teachingclassid": "2025202610030012001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00303050": {
+        "teachingclassid": "2025202610030305001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302900": {
+        "teachingclassid": "2025202610030290001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302930": {
+        "teachingclassid": "2025202610030293001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302980": {
+        "teachingclassid": "2025202610030298001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372400": {
+        "teachingclassid": "2025202610037240001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302830": {
+        "teachingclassid": "2025202610030283001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00371690": {
+        "teachingclassid": "2025202610037169001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00300070": {
+        "teachingclassid": "2025202610030007001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00340120": {
+        "teachingclassid": "2025202610034012001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302910": {
+        "teachingclassid": "2025202610030291001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00340050": {
+        "teachingclassid": "2025202610034005002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00360020": {
+        "teachingclassid": "2025202610036002001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00371810": {
+        "teachingclassid": "2025202610037181001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00371900": {
+        "teachingclassid": "2025202610037190001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00303030": {
+        "teachingclassid": "2025202610030303001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372460": {
+        "teachingclassid": "2025202610037246001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00303060": {
+        "teachingclassid": "2025202610030306001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00330100": {
+        "teachingclassid": "2025202610033010002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00300020": {
+        "teachingclassid": "2025202610030002001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00300170": {
+        "teachingclassid": "2025202610030017001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302420": {
+        "teachingclassid": "2025202610030242001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00303040": {
+        "teachingclassid": "2025202610030304001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00340080": {
+        "teachingclassid": "2025202610034008001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372440": {
+        "teachingclassid": "2025202610037244001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302750": {
+        "teachingclassid": "2025202610030275001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00300050": {
+        "teachingclassid": "2025202610030005002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302970": {
+        "teachingclassid": "2025202610030297001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302520": {
+        "teachingclassid": "2025202610030252001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302510": {
+        "teachingclassid": "2025202610030251001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00303000": {
+        "teachingclassid": "2025202610030300001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00303010": {
+        "teachingclassid": "2025202610030301001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00340030": {
+        "teachingclassid": "2025202610034003002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00360070": {
+        "teachingclassid": "2025202610036007001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00300060": {
+        "teachingclassid": "2025202610030006001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372110": {
+        "teachingclassid": "2025202610037211001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372410": {
+        "teachingclassid": "2025202610037241001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302800": {
+        "teachingclassid": "2025202610030280002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302990": {
+        "teachingclassid": "2025202610030299001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302500": {
+        "teachingclassid": "2025202610030250002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302920": {
+        "teachingclassid": "2025202610030292001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "37100330": {
+        "teachingclassid": "2025202613710033001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00341640": {
+        "teachingclassid": "2025202610034164001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302770": {
+        "teachingclassid": "2025202610030277001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00371850": {
+        "teachingclassid": "2025202610037185002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00300040": {
+        "teachingclassid": "2025202610030004001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302940": {
+        "teachingclassid": "2025202610030294001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00340020": {
+        "teachingclassid": "2025202610034002001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372420": {
+        "teachingclassid": "2025202610037242001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372500": {
+        "teachingclassid": "2025202610037250001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "37100810": {
+        "teachingclassid": "2025202613710081001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00330080": {
+        "teachingclassid": "2025202610033008002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302790": {
+        "teachingclassid": "2025202610030279001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00300130": {
+        "teachingclassid": "2025202610030013001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00371780": {
+        "teachingclassid": "2025202610037178001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00300160": {
+        "teachingclassid": "2025202610030016001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372430": {
+        "teachingclassid": "2025202610037243001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00341560": {
+        "teachingclassid": "2025202610034156001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372140": {
+        "teachingclassid": "2025202610037214002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00371930": {
+        "teachingclassid": "2025202610037193001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302390": {
+        "teachingclassid": "2025202610030239001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00302440": {
+        "teachingclassid": "2025202610030244001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00371720": {
+        "teachingclassid": "2025202610037172002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372090": {
+        "teachingclassid": "2025202610037209001",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00372130": {
+        "teachingclassid": "2025202610037213002",
+        "courseKind": "6,7",
+        "teachingClassType": "GG02"
+    },
+    "00399710": {
+        "teachingclassid": "2025202610039971001",
+        "courseKind": "3",
+        "teachingClassType": "GG06"
+    },
+    "14120050": {
+        "teachingclassid": "2025202611412005001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100700": {
+        "teachingclassid": "2025202611410070001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01000010C": {
+        "teachingclassid": "20252026101000010C02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01000020A": {
+        "teachingclassid": "20252026101000020A02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01010010B": {
+        "teachingclassid": "20252026101010010B02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01010020": {
+        "teachingclassid": "2025202610101002002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01010040A": {
+        "teachingclassid": "20252026101010040A02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01010050A": {
+        "teachingclassid": "20252026101010050A02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01030030": {
+        "teachingclassid": "2025202610103003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01030040": {
+        "teachingclassid": "2025202610103004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01030150": {
+        "teachingclassid": "2025202610103015001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01030180": {
+        "teachingclassid": "2025202610103018001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01030340": {
+        "teachingclassid": "2025202610103034001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01031820": {
+        "teachingclassid": "2025202610103182001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01031890": {
+        "teachingclassid": "2025202610103189001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01031900": {
+        "teachingclassid": "2025202610103190001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01032340": {
+        "teachingclassid": "2025202610103234001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01032380": {
+        "teachingclassid": "2025202610103238001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01032390": {
+        "teachingclassid": "2025202610103239001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01032410": {
+        "teachingclassid": "2025202610103241001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01032420": {
+        "teachingclassid": "2025202610103242001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01032510": {
+        "teachingclassid": "2025202610103251001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01032520": {
+        "teachingclassid": "2025202610103252001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "01060000C": {
+        "teachingclassid": "20252026101060000C01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02000100A": {
+        "teachingclassid": "20252026102000100A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02000100C": {
+        "teachingclassid": "20252026102000100C02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02100030A": {
+        "teachingclassid": "20252026102100030A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02100030B": {
+        "teachingclassid": "20252026102100030B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02100050": {
+        "teachingclassid": "2025202610210005001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02100060": {
+        "teachingclassid": "2025202610210006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02100090A": {
+        "teachingclassid": "20252026102100090A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02100090C": {
+        "teachingclassid": "20252026102100090C01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02100120": {
+        "teachingclassid": "2025202610210012002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02100150": {
+        "teachingclassid": "2025202610210015001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02110300": {
+        "teachingclassid": "2025202610211030001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02110350": {
+        "teachingclassid": "2025202610211035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02110410": {
+        "teachingclassid": "2025202610211041001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02110420": {
+        "teachingclassid": "2025202610211042001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02110580": {
+        "teachingclassid": "2025202610211058001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02110730": {
+        "teachingclassid": "2025202610211073001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02110800": {
+        "teachingclassid": "2025202610211080001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02110900I": {
+        "teachingclassid": "20252026102110900I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02110920I": {
+        "teachingclassid": "20252026102110920I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02110930I": {
+        "teachingclassid": "20252026102110930I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111060": {
+        "teachingclassid": "2025202610211106001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111070": {
+        "teachingclassid": "2025202610211107001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111100": {
+        "teachingclassid": "2025202610211110001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111110": {
+        "teachingclassid": "2025202610211111001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111120": {
+        "teachingclassid": "2025202610211112001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111130": {
+        "teachingclassid": "2025202610211113001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111150": {
+        "teachingclassid": "2025202610211115001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111160": {
+        "teachingclassid": "2025202610211116001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111180": {
+        "teachingclassid": "2025202610211118001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111280": {
+        "teachingclassid": "2025202610211128001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111320": {
+        "teachingclassid": "2025202610211132001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111390": {
+        "teachingclassid": "2025202610211139001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111420": {
+        "teachingclassid": "2025202610211142001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02111430": {
+        "teachingclassid": "2025202610211143001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02200030": {
+        "teachingclassid": "2025202610220003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02200070": {
+        "teachingclassid": "2025202610220007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02200130": {
+        "teachingclassid": "2025202610220013001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02200260": {
+        "teachingclassid": "2025202610220026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02210110": {
+        "teachingclassid": "2025202610221011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02210120": {
+        "teachingclassid": "2025202610221012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02210490": {
+        "teachingclassid": "2025202610221049001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02210500": {
+        "teachingclassid": "2025202610221050001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02210560B": {
+        "teachingclassid": "20252026102210560B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02210770I": {
+        "teachingclassid": "20252026102210770I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02210810": {
+        "teachingclassid": "2025202610221081001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "02210840": {
+        "teachingclassid": "2025202610221084001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000020": {
+        "teachingclassid": "2025202610300002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000040B": {
+        "teachingclassid": "20252026103000040B02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000080B": {
+        "teachingclassid": "20252026103000080B02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000220": {
+        "teachingclassid": "2025202610300022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000250": {
+        "teachingclassid": "2025202610300025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000270": {
+        "teachingclassid": "2025202610300027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000290": {
+        "teachingclassid": "2025202610300029001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000360": {
+        "teachingclassid": "2025202610300036001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000370": {
+        "teachingclassid": "2025202610300037002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000380": {
+        "teachingclassid": "2025202610300038001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000500": {
+        "teachingclassid": "2025202610300050001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03000510": {
+        "teachingclassid": "2025202610300051001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001270": {
+        "teachingclassid": "2025202610300127001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001390": {
+        "teachingclassid": "2025202610300139001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001520": {
+        "teachingclassid": "2025202610300152002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001580": {
+        "teachingclassid": "2025202610300158001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001690": {
+        "teachingclassid": "2025202610300169001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001710": {
+        "teachingclassid": "2025202610300171002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001720": {
+        "teachingclassid": "2025202610300172001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001740": {
+        "teachingclassid": "2025202610300174001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001750": {
+        "teachingclassid": "2025202610300175001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001770": {
+        "teachingclassid": "2025202610300177001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001790": {
+        "teachingclassid": "2025202610300179002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001800": {
+        "teachingclassid": "2025202610300180001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03001950": {
+        "teachingclassid": "2025202610300195001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "03002000": {
+        "teachingclassid": "2025202610300200001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010010B": {
+        "teachingclassid": "20252026104010010B02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010020A": {
+        "teachingclassid": "20252026104010020A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010030B": {
+        "teachingclassid": "20252026104010030B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010040": {
+        "teachingclassid": "2025202610401004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010060": {
+        "teachingclassid": "2025202610401006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010090": {
+        "teachingclassid": "2025202610401009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010120": {
+        "teachingclassid": "2025202610401012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010540": {
+        "teachingclassid": "2025202610401054001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010560": {
+        "teachingclassid": "2025202610401056001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010580": {
+        "teachingclassid": "2025202610401058001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010640": {
+        "teachingclassid": "2025202610401064001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04010750": {
+        "teachingclassid": "2025202610401075001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04011100": {
+        "teachingclassid": "2025202610401110001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04011160": {
+        "teachingclassid": "2025202610401116001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04011340": {
+        "teachingclassid": "2025202610401134001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04011410": {
+        "teachingclassid": "2025202610401141001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04011470": {
+        "teachingclassid": "2025202610401147001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04011530": {
+        "teachingclassid": "2025202610401153001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "04011660": {
+        "teachingclassid": "2025202610401166001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05000022": {
+        "teachingclassid": "2025202610500002201",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05000032": {
+        "teachingclassid": "2025202610500003202",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05000110": {
+        "teachingclassid": "2025202610500011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05000230": {
+        "teachingclassid": "2025202610500023002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05000420": {
+        "teachingclassid": "2025202610500042001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05000600": {
+        "teachingclassid": "2025202610500060001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05000650": {
+        "teachingclassid": "2025202610500065001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05000770": {
+        "teachingclassid": "2025202610500077001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05000870": {
+        "teachingclassid": "2025202610500087001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05000890": {
+        "teachingclassid": "2025202610500089001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05001000": {
+        "teachingclassid": "2025202610500100001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05001010": {
+        "teachingclassid": "2025202610500101001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05006220": {
+        "teachingclassid": "2025202610500622001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05010040": {
+        "teachingclassid": "2025202610501004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05010360": {
+        "teachingclassid": "2025202610501036002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05010520": {
+        "teachingclassid": "2025202610501052001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05010630": {
+        "teachingclassid": "2025202610501063001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05010650": {
+        "teachingclassid": "2025202610501065001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05010700": {
+        "teachingclassid": "2025202610501070001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05010750": {
+        "teachingclassid": "2025202610501075001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05010760": {
+        "teachingclassid": "2025202610501076001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05020020": {
+        "teachingclassid": "2025202610502002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05020040": {
+        "teachingclassid": "2025202610502004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05020090": {
+        "teachingclassid": "2025202610502009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05020110": {
+        "teachingclassid": "2025202610502011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05020370": {
+        "teachingclassid": "2025202610502037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05020510": {
+        "teachingclassid": "2025202610502051001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05020520": {
+        "teachingclassid": "2025202610502052001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05020560": {
+        "teachingclassid": "2025202610502056001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05020750": {
+        "teachingclassid": "2025202610502075001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05020760": {
+        "teachingclassid": "2025202610502076001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05020800": {
+        "teachingclassid": "2025202610502080001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05030090": {
+        "teachingclassid": "2025202610503009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05030190": {
+        "teachingclassid": "2025202610503019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05030730": {
+        "teachingclassid": "2025202610503073001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05030750": {
+        "teachingclassid": "2025202610503075001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "05080040": {
+        "teachingclassid": "2025202610508004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06000000": {
+        "teachingclassid": "2025202610600000001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06000060": {
+        "teachingclassid": "2025202610600006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06000110": {
+        "teachingclassid": "2025202610600011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06000630": {
+        "teachingclassid": "2025202610600063001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06010000": {
+        "teachingclassid": "2025202610601000001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06010220": {
+        "teachingclassid": "2025202610601022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06010440": {
+        "teachingclassid": "2025202610601044001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06010470": {
+        "teachingclassid": "2025202610601047001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06010500": {
+        "teachingclassid": "2025202610601050001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06010520": {
+        "teachingclassid": "2025202610601052001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06010640": {
+        "teachingclassid": "2025202610601064001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06010650": {
+        "teachingclassid": "2025202610601065001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06020020": {
+        "teachingclassid": "2025202610602002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06020030": {
+        "teachingclassid": "2025202610602003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06020060": {
+        "teachingclassid": "2025202610602006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06020080": {
+        "teachingclassid": "2025202610602008001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06020090": {
+        "teachingclassid": "2025202610602009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06020370": {
+        "teachingclassid": "2025202610602037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06020380": {
+        "teachingclassid": "2025202610602038001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06020430": {
+        "teachingclassid": "2025202610602043001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06020440": {
+        "teachingclassid": "2025202610602044001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040020": {
+        "teachingclassid": "2025202610604002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040060": {
+        "teachingclassid": "2025202610604006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040300": {
+        "teachingclassid": "2025202610604030001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040310": {
+        "teachingclassid": "2025202610604031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040370": {
+        "teachingclassid": "2025202610604037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040380": {
+        "teachingclassid": "2025202610604038001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040480": {
+        "teachingclassid": "2025202610604048001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040500": {
+        "teachingclassid": "2025202610604050001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040530": {
+        "teachingclassid": "2025202610604053001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040560": {
+        "teachingclassid": "2025202610604056001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040600": {
+        "teachingclassid": "2025202610604060001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040610": {
+        "teachingclassid": "2025202610604061001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040620": {
+        "teachingclassid": "2025202610604062001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06040630": {
+        "teachingclassid": "2025202610604063001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "06050340": {
+        "teachingclassid": "2025202610605034001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07000070": {
+        "teachingclassid": "2025202610700007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07000190": {
+        "teachingclassid": "2025202610700019003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07000320": {
+        "teachingclassid": "2025202610700032001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07000340": {
+        "teachingclassid": "2025202610700034001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07000470": {
+        "teachingclassid": "2025202610700047001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07000580": {
+        "teachingclassid": "2025202610700058001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07000590": {
+        "teachingclassid": "2025202610700059001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07000610": {
+        "teachingclassid": "2025202610700061001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07000640": {
+        "teachingclassid": "2025202610700064001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07000690": {
+        "teachingclassid": "2025202610700069001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07000720": {
+        "teachingclassid": "2025202610700072001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07010010": {
+        "teachingclassid": "2025202610701001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07010050I": {
+        "teachingclassid": "20252026107010050I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07010110": {
+        "teachingclassid": "2025202610701011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07010180": {
+        "teachingclassid": "2025202610701018001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07010220": {
+        "teachingclassid": "2025202610701022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07010230": {
+        "teachingclassid": "2025202610701023001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07010240": {
+        "teachingclassid": "2025202610701024001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07010260": {
+        "teachingclassid": "2025202610701026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020010": {
+        "teachingclassid": "2025202610702001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020190": {
+        "teachingclassid": "2025202610702019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020200": {
+        "teachingclassid": "2025202610702020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020350": {
+        "teachingclassid": "2025202610702035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020420": {
+        "teachingclassid": "2025202610702042001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020430": {
+        "teachingclassid": "2025202610702043001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020440": {
+        "teachingclassid": "2025202610702044001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020450": {
+        "teachingclassid": "2025202610702045001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020500": {
+        "teachingclassid": "2025202610702050001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020520": {
+        "teachingclassid": "2025202610702052001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020540": {
+        "teachingclassid": "2025202610702054001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07020610": {
+        "teachingclassid": "2025202610702061001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07030010": {
+        "teachingclassid": "2025202610703001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07030230": {
+        "teachingclassid": "2025202610703023001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07030250": {
+        "teachingclassid": "2025202610703025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07030270": {
+        "teachingclassid": "2025202610703027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07040010": {
+        "teachingclassid": "2025202610704001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07040030": {
+        "teachingclassid": "2025202610704003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07040110": {
+        "teachingclassid": "2025202610704011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07040130": {
+        "teachingclassid": "2025202610704013001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07040190": {
+        "teachingclassid": "2025202610704019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07040260": {
+        "teachingclassid": "2025202610704026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07040280": {
+        "teachingclassid": "2025202610704028001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "07040300": {
+        "teachingclassid": "2025202610704030001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010040A": {
+        "teachingclassid": "20252026108010040A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010050": {
+        "teachingclassid": "2025202610801005002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010070": {
+        "teachingclassid": "2025202610801007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010090": {
+        "teachingclassid": "2025202610801009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010100": {
+        "teachingclassid": "2025202610801010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010120": {
+        "teachingclassid": "2025202610801012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010130": {
+        "teachingclassid": "2025202610801013001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010150": {
+        "teachingclassid": "2025202610801015001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010190": {
+        "teachingclassid": "2025202610801019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010210": {
+        "teachingclassid": "2025202610801021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010260": {
+        "teachingclassid": "2025202610801026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010280": {
+        "teachingclassid": "2025202610801028001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010350": {
+        "teachingclassid": "2025202610801035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010370": {
+        "teachingclassid": "2025202610801037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010380": {
+        "teachingclassid": "2025202610801038001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010420": {
+        "teachingclassid": "2025202610801042001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010590": {
+        "teachingclassid": "2025202610801059001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010650": {
+        "teachingclassid": "2025202610801065001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010660": {
+        "teachingclassid": "2025202610801066001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010670": {
+        "teachingclassid": "2025202610801067001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010820": {
+        "teachingclassid": "2025202610801082001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08010900": {
+        "teachingclassid": "2025202610801090001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08020010": {
+        "teachingclassid": "2025202610802001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08020020": {
+        "teachingclassid": "2025202610802002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08020060": {
+        "teachingclassid": "2025202610802006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08020120": {
+        "teachingclassid": "2025202610802012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08020140A": {
+        "teachingclassid": "20252026108020140A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08020140B": {
+        "teachingclassid": "20252026108020140B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08020340": {
+        "teachingclassid": "2025202610802034001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08030020": {
+        "teachingclassid": "2025202610803002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08030030A": {
+        "teachingclassid": "20252026108030030A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08030040": {
+        "teachingclassid": "2025202610803004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08030080I": {
+        "teachingclassid": "20252026108030080I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08030100": {
+        "teachingclassid": "2025202610803010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08030110": {
+        "teachingclassid": "2025202610803011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08030210": {
+        "teachingclassid": "2025202610803021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08030470": {
+        "teachingclassid": "2025202610803047001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08030500": {
+        "teachingclassid": "2025202610803050001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08030510": {
+        "teachingclassid": "2025202610803051001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "08030530": {
+        "teachingclassid": "2025202610803053001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09000010B": {
+        "teachingclassid": "20252026109000010B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09000020": {
+        "teachingclassid": "2025202610900002002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09000030": {
+        "teachingclassid": "2025202610900003004",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09000060": {
+        "teachingclassid": "2025202610900006002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09000620": {
+        "teachingclassid": "2025202610900062003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09000630": {
+        "teachingclassid": "2025202610900063002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09000650": {
+        "teachingclassid": "2025202610900065002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010040": {
+        "teachingclassid": "2025202610901004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010210": {
+        "teachingclassid": "2025202610901021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010220": {
+        "teachingclassid": "2025202610901022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010220I": {
+        "teachingclassid": "20252026109010220I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010230": {
+        "teachingclassid": "2025202610901023001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010270": {
+        "teachingclassid": "2025202610901027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010280": {
+        "teachingclassid": "2025202610901028002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010320": {
+        "teachingclassid": "2025202610901032001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010360": {
+        "teachingclassid": "2025202610901036001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010390": {
+        "teachingclassid": "2025202610901039001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010450": {
+        "teachingclassid": "2025202610901045001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010460I": {
+        "teachingclassid": "20252026109010460I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010470": {
+        "teachingclassid": "2025202610901047001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010510": {
+        "teachingclassid": "2025202610901051001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010540": {
+        "teachingclassid": "2025202610901054001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010580": {
+        "teachingclassid": "2025202610901058001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010620": {
+        "teachingclassid": "2025202610901062002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010640": {
+        "teachingclassid": "2025202610901064001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010650": {
+        "teachingclassid": "2025202610901065002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010660": {
+        "teachingclassid": "2025202610901066001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010680": {
+        "teachingclassid": "2025202610901068001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010700": {
+        "teachingclassid": "2025202610901070001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010810": {
+        "teachingclassid": "2025202610901081001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010850": {
+        "teachingclassid": "2025202610901085001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09010940": {
+        "teachingclassid": "2025202610901094001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09020030": {
+        "teachingclassid": "2025202610902003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09020070": {
+        "teachingclassid": "2025202610902007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09020170": {
+        "teachingclassid": "2025202610902017001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09020350": {
+        "teachingclassid": "2025202610902035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09020360": {
+        "teachingclassid": "2025202610902036001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09020370": {
+        "teachingclassid": "2025202610902037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09020390": {
+        "teachingclassid": "2025202610902039001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09020400": {
+        "teachingclassid": "2025202610902040001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09020410": {
+        "teachingclassid": "2025202610902041001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09030370": {
+        "teachingclassid": "2025202610903037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09030460": {
+        "teachingclassid": "2025202610903046001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09030540": {
+        "teachingclassid": "2025202610903054001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09030650": {
+        "teachingclassid": "2025202610903065002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09050340": {
+        "teachingclassid": "2025202610905034001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09050360": {
+        "teachingclassid": "2025202610905036001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09050380": {
+        "teachingclassid": "2025202610905038001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09050400": {
+        "teachingclassid": "2025202610905040002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09050430": {
+        "teachingclassid": "2025202610905043001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09050440": {
+        "teachingclassid": "2025202610905044003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09050450": {
+        "teachingclassid": "2025202610905045001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09050480": {
+        "teachingclassid": "2025202610905048001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09050490": {
+        "teachingclassid": "2025202610905049002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09050530": {
+        "teachingclassid": "2025202610905053001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09060040": {
+        "teachingclassid": "2025202610906004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09060270": {
+        "teachingclassid": "2025202610906027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09060310": {
+        "teachingclassid": "2025202610906031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09060390I": {
+        "teachingclassid": "20252026109060390I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09060450": {
+        "teachingclassid": "2025202610906045001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09060480": {
+        "teachingclassid": "2025202610906048001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09060530": {
+        "teachingclassid": "2025202610906053001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09060550": {
+        "teachingclassid": "2025202610906055001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09060590": {
+        "teachingclassid": "2025202610906059002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09060600": {
+        "teachingclassid": "2025202610906060001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09060620": {
+        "teachingclassid": "2025202610906062001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09070080": {
+        "teachingclassid": "2025202610907008001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09070250": {
+        "teachingclassid": "2025202610907025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09070280": {
+        "teachingclassid": "2025202610907028001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09070340": {
+        "teachingclassid": "2025202610907034001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09070460": {
+        "teachingclassid": "2025202610907046001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09070490": {
+        "teachingclassid": "2025202610907049001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09080050": {
+        "teachingclassid": "2025202610908005001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09080140": {
+        "teachingclassid": "2025202610908014001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09080240": {
+        "teachingclassid": "2025202610908024001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09080270": {
+        "teachingclassid": "2025202610908027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09090140": {
+        "teachingclassid": "2025202610909014001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09090150": {
+        "teachingclassid": "2025202610909015001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09090200": {
+        "teachingclassid": "2025202610909020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09090210": {
+        "teachingclassid": "2025202610909021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09090220": {
+        "teachingclassid": "2025202610909022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "09090240": {
+        "teachingclassid": "2025202610909024001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10000010B": {
+        "teachingclassid": "20252026110000010B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10010020A": {
+        "teachingclassid": "20252026110010020A02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10010090": {
+        "teachingclassid": "2025202611001009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10010120": {
+        "teachingclassid": "2025202611001012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10010160": {
+        "teachingclassid": "2025202611001016001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10010190B": {
+        "teachingclassid": "20252026110010190B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10010200B": {
+        "teachingclassid": "20252026110010200B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10010210B": {
+        "teachingclassid": "20252026110010210B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10010310": {
+        "teachingclassid": "2025202611001031002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10010330": {
+        "teachingclassid": "2025202611001033003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10010350": {
+        "teachingclassid": "2025202611001035003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10010370": {
+        "teachingclassid": "2025202611001037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10020100B": {
+        "teachingclassid": "20252026110020100B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10020140": {
+        "teachingclassid": "2025202611002014001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10020170": {
+        "teachingclassid": "2025202611002017001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10020190": {
+        "teachingclassid": "2025202611002019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10020210": {
+        "teachingclassid": "2025202611002021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10020240": {
+        "teachingclassid": "2025202611002024001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10020250": {
+        "teachingclassid": "2025202611002025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10030180": {
+        "teachingclassid": "2025202611003018001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10030220": {
+        "teachingclassid": "2025202611003022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10030260": {
+        "teachingclassid": "2025202611003026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10030290": {
+        "teachingclassid": "2025202611003029001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10030300": {
+        "teachingclassid": "2025202611003030001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10030310": {
+        "teachingclassid": "2025202611003031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10030320": {
+        "teachingclassid": "2025202611003032001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10030330": {
+        "teachingclassid": "2025202611003033001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10040030A": {
+        "teachingclassid": "20252026110040030A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10040060A": {
+        "teachingclassid": "20252026110040060A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10040100": {
+        "teachingclassid": "2025202611004010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10040110": {
+        "teachingclassid": "2025202611004011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10050100": {
+        "teachingclassid": "2025202611005010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10050140": {
+        "teachingclassid": "2025202611005014001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10050160": {
+        "teachingclassid": "2025202611005016001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10050180": {
+        "teachingclassid": "2025202611005018001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10050200": {
+        "teachingclassid": "2025202611005020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10050220": {
+        "teachingclassid": "2025202611005022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10050240": {
+        "teachingclassid": "2025202611005024001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10060090": {
+        "teachingclassid": "2025202611006009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10060120": {
+        "teachingclassid": "2025202611006012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10060130": {
+        "teachingclassid": "2025202611006013001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10060170": {
+        "teachingclassid": "2025202611006017001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10060200": {
+        "teachingclassid": "2025202611006020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10060220": {
+        "teachingclassid": "2025202611006022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10060230": {
+        "teachingclassid": "2025202611006023001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10060250": {
+        "teachingclassid": "2025202611006025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10060280": {
+        "teachingclassid": "2025202611006028001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10060290": {
+        "teachingclassid": "2025202611006029001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10060310": {
+        "teachingclassid": "2025202611006031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10070220": {
+        "teachingclassid": "2025202611007022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10070270": {
+        "teachingclassid": "2025202611007027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10070280": {
+        "teachingclassid": "2025202611007028001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10070290": {
+        "teachingclassid": "2025202611007029001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10070300": {
+        "teachingclassid": "2025202611007030001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10080160": {
+        "teachingclassid": "2025202611008016001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10080170": {
+        "teachingclassid": "2025202611008017001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10080230": {
+        "teachingclassid": "2025202611008023001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10080270": {
+        "teachingclassid": "2025202611008027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10080370": {
+        "teachingclassid": "2025202611008037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081020A": {
+        "teachingclassid": "20252026110081020A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081020B": {
+        "teachingclassid": "20252026110081020B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081120": {
+        "teachingclassid": "2025202611008112001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081420": {
+        "teachingclassid": "2025202611008142001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081500": {
+        "teachingclassid": "2025202611008150001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081530A": {
+        "teachingclassid": "20252026110081530A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081610": {
+        "teachingclassid": "2025202611008161001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081690": {
+        "teachingclassid": "2025202611008169001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081730": {
+        "teachingclassid": "2025202611008173001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081750": {
+        "teachingclassid": "2025202611008175001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081880": {
+        "teachingclassid": "2025202611008188001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081920": {
+        "teachingclassid": "2025202611008192001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10081980": {
+        "teachingclassid": "2025202611008198001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082360": {
+        "teachingclassid": "2025202611008236001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082450": {
+        "teachingclassid": "2025202611008245001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082470": {
+        "teachingclassid": "2025202611008247001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082510": {
+        "teachingclassid": "2025202611008251001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082550": {
+        "teachingclassid": "2025202611008255001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082650": {
+        "teachingclassid": "2025202611008265001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082670": {
+        "teachingclassid": "2025202611008267001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082690": {
+        "teachingclassid": "2025202611008269001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082720": {
+        "teachingclassid": "2025202611008272001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082740": {
+        "teachingclassid": "2025202611008274001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082780": {
+        "teachingclassid": "2025202611008278001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082800": {
+        "teachingclassid": "2025202611008280001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082970": {
+        "teachingclassid": "2025202611008297001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10082990": {
+        "teachingclassid": "2025202611008299001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083010": {
+        "teachingclassid": "2025202611008301001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083030": {
+        "teachingclassid": "2025202611008303001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083060": {
+        "teachingclassid": "2025202611008306001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083120": {
+        "teachingclassid": "2025202611008312001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083160": {
+        "teachingclassid": "2025202611008316001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083220": {
+        "teachingclassid": "2025202611008322001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083260": {
+        "teachingclassid": "2025202611008326001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083290": {
+        "teachingclassid": "2025202611008329001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083310": {
+        "teachingclassid": "2025202611008331001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083330": {
+        "teachingclassid": "2025202611008333001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083430": {
+        "teachingclassid": "2025202611008343001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083450": {
+        "teachingclassid": "2025202611008345001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083490": {
+        "teachingclassid": "2025202611008349001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083550": {
+        "teachingclassid": "2025202611008355001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083610": {
+        "teachingclassid": "2025202611008361001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083730": {
+        "teachingclassid": "2025202611008373001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083800": {
+        "teachingclassid": "2025202611008380002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083830": {
+        "teachingclassid": "2025202611008383001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083850": {
+        "teachingclassid": "2025202611008385001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083860": {
+        "teachingclassid": "2025202611008386001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083870": {
+        "teachingclassid": "2025202611008387001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083890": {
+        "teachingclassid": "2025202611008389001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083920": {
+        "teachingclassid": "2025202611008392001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10083940": {
+        "teachingclassid": "2025202611008394001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10084110": {
+        "teachingclassid": "2025202611008411001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10084210": {
+        "teachingclassid": "2025202611008421001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "10084220": {
+        "teachingclassid": "2025202611008422001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11000010C": {
+        "teachingclassid": "20252026111000010C02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11000040": {
+        "teachingclassid": "2025202611100004002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11000070": {
+        "teachingclassid": "2025202611100007002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11000300": {
+        "teachingclassid": "2025202611100030001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11010010": {
+        "teachingclassid": "2025202611101001002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11010030": {
+        "teachingclassid": "2025202611101003002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11010040": {
+        "teachingclassid": "2025202611101004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11010210": {
+        "teachingclassid": "2025202611101021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11011000": {
+        "teachingclassid": "2025202611101100001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11011020": {
+        "teachingclassid": "2025202611101102001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11011060": {
+        "teachingclassid": "2025202611101106001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11011070": {
+        "teachingclassid": "2025202611101107001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11012000": {
+        "teachingclassid": "2025202611101200001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11012040": {
+        "teachingclassid": "2025202611101204001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11012060": {
+        "teachingclassid": "2025202611101206001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11013060": {
+        "teachingclassid": "2025202611101306001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11013070": {
+        "teachingclassid": "2025202611101307001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11020210": {
+        "teachingclassid": "2025202611102021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11021020": {
+        "teachingclassid": "2025202611102102001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11030000": {
+        "teachingclassid": "2025202611103000001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11030010": {
+        "teachingclassid": "2025202611103001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11030420": {
+        "teachingclassid": "2025202611103042001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11031010": {
+        "teachingclassid": "2025202611103101001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11031020": {
+        "teachingclassid": "2025202611103102001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11090260": {
+        "teachingclassid": "2025202611109026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11090270": {
+        "teachingclassid": "2025202611109027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11090320": {
+        "teachingclassid": "2025202611109032001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11090390": {
+        "teachingclassid": "2025202611109039001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11090420": {
+        "teachingclassid": "2025202611109042001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11090480": {
+        "teachingclassid": "2025202611109048001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11090700": {
+        "teachingclassid": "2025202611109070001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "11100200": {
+        "teachingclassid": "2025202611110020006",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000010A": {
+        "teachingclassid": "20252026112000010A02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000010B": {
+        "teachingclassid": "20252026112000010B02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000014A": {
+        "teachingclassid": "20252026112000014A02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000014B": {
+        "teachingclassid": "20252026112000014B04",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000016B": {
+        "teachingclassid": "20252026112000016B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000040": {
+        "teachingclassid": "2025202611200004003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000060": {
+        "teachingclassid": "2025202611200006003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000070": {
+        "teachingclassid": "2025202611200007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000100B": {
+        "teachingclassid": "20252026112000100B04",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000110": {
+        "teachingclassid": "2025202611200011003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000140": {
+        "teachingclassid": "2025202611200014001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000160": {
+        "teachingclassid": "2025202611200016001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000190": {
+        "teachingclassid": "2025202611200019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000200": {
+        "teachingclassid": "2025202611200020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000260": {
+        "teachingclassid": "2025202611200026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000350": {
+        "teachingclassid": "2025202611200035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000710": {
+        "teachingclassid": "2025202611200071001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000800": {
+        "teachingclassid": "2025202611200080001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12000820": {
+        "teachingclassid": "2025202611200082001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12001030": {
+        "teachingclassid": "2025202611200103001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12001080": {
+        "teachingclassid": "2025202611200108001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12001200": {
+        "teachingclassid": "2025202611200120001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12001220": {
+        "teachingclassid": "2025202611200122001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12001230": {
+        "teachingclassid": "2025202611200123001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12001260": {
+        "teachingclassid": "2025202611200126001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12001270": {
+        "teachingclassid": "2025202611200127002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12001300S": {
+        "teachingclassid": "20252026112001300S01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12001310": {
+        "teachingclassid": "2025202611200131001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12001320": {
+        "teachingclassid": "2025202611200132001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12010210": {
+        "teachingclassid": "2025202611201021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12010250": {
+        "teachingclassid": "2025202611201025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12010270": {
+        "teachingclassid": "2025202611201027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12010280": {
+        "teachingclassid": "2025202611201028001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12010290": {
+        "teachingclassid": "2025202611201029001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12010340": {
+        "teachingclassid": "2025202611201034001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12010360": {
+        "teachingclassid": "2025202611201036001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12010370": {
+        "teachingclassid": "2025202611201037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12010380": {
+        "teachingclassid": "2025202611201038001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12010390": {
+        "teachingclassid": "2025202611201039001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12010430": {
+        "teachingclassid": "2025202611201043001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12020210": {
+        "teachingclassid": "2025202611202021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12020260": {
+        "teachingclassid": "2025202611202026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12030210": {
+        "teachingclassid": "2025202611203021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12030240": {
+        "teachingclassid": "2025202611203024001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12030250": {
+        "teachingclassid": "2025202611203025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12030260": {
+        "teachingclassid": "2025202611203026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12040040": {
+        "teachingclassid": "2025202611204004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12040050": {
+        "teachingclassid": "2025202611204005001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12040100": {
+        "teachingclassid": "2025202611204010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12040220": {
+        "teachingclassid": "2025202611204022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12040230": {
+        "teachingclassid": "2025202611204023001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12040240": {
+        "teachingclassid": "2025202611204024001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12040250": {
+        "teachingclassid": "2025202611204025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12040310T": {
+        "teachingclassid": "20252026112040310T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12040320": {
+        "teachingclassid": "2025202611204032001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12040340": {
+        "teachingclassid": "2025202611204034001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "12040350": {
+        "teachingclassid": "2025202611204035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13000150": {
+        "teachingclassid": "2025202611300015001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13000200": {
+        "teachingclassid": "2025202611300020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13000240A": {
+        "teachingclassid": "20252026113000240A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13000240B": {
+        "teachingclassid": "20252026113000240B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13000270": {
+        "teachingclassid": "2025202611300027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13000280": {
+        "teachingclassid": "2025202611300028001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13000290A": {
+        "teachingclassid": "20252026113000290A06",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010030": {
+        "teachingclassid": "2025202611301003004",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010050A": {
+        "teachingclassid": "20252026113010050A02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010150": {
+        "teachingclassid": "2025202611301015001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010200": {
+        "teachingclassid": "2025202611301020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010290T": {
+        "teachingclassid": "20252026113010290T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010320B": {
+        "teachingclassid": "20252026113010320B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010340B": {
+        "teachingclassid": "20252026113010340B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010350A": {
+        "teachingclassid": "20252026113010350A02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010370A": {
+        "teachingclassid": "20252026113010370A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010390B": {
+        "teachingclassid": "20252026113010390B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010410A": {
+        "teachingclassid": "20252026113010410A02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13010430T": {
+        "teachingclassid": "20252026113010430T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13020010A": {
+        "teachingclassid": "20252026113020010A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13020040": {
+        "teachingclassid": "2025202611302004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13020060": {
+        "teachingclassid": "2025202611302006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030040": {
+        "teachingclassid": "2025202611303004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030060": {
+        "teachingclassid": "2025202611303006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030080B": {
+        "teachingclassid": "20252026113030080B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030090": {
+        "teachingclassid": "2025202611303009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030100": {
+        "teachingclassid": "2025202611303010003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030240B": {
+        "teachingclassid": "20252026113030240B01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030270": {
+        "teachingclassid": "2025202611303027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030480": {
+        "teachingclassid": "2025202611303048001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030560": {
+        "teachingclassid": "2025202611303056001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030650": {
+        "teachingclassid": "2025202611303065001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030720": {
+        "teachingclassid": "2025202611303072002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030770": {
+        "teachingclassid": "2025202611303077001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030780": {
+        "teachingclassid": "2025202611303078001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030860": {
+        "teachingclassid": "2025202611303086001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030940": {
+        "teachingclassid": "2025202611303094001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030950": {
+        "teachingclassid": "2025202611303095001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030960": {
+        "teachingclassid": "2025202611303096001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13030980": {
+        "teachingclassid": "2025202611303098001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13031120": {
+        "teachingclassid": "2025202611303112001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13031140": {
+        "teachingclassid": "2025202611303114001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13031170": {
+        "teachingclassid": "2025202611303117001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "13031240": {
+        "teachingclassid": "2025202611303124001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14000070": {
+        "teachingclassid": "2025202611400007004",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010021": {
+        "teachingclassid": "2025202611401002102",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010032": {
+        "teachingclassid": "2025202611401003203",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010050": {
+        "teachingclassid": "2025202611401005004",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010060": {
+        "teachingclassid": "2025202611401006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010060T": {
+        "teachingclassid": "20252026114010060T04",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010070": {
+        "teachingclassid": "2025202611401007003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010150T": {
+        "teachingclassid": "20252026114010150T04",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010160T": {
+        "teachingclassid": "20252026114010160T04",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010170T": {
+        "teachingclassid": "20252026114010170T03",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010190": {
+        "teachingclassid": "2025202611401019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010210T": {
+        "teachingclassid": "20252026114010210T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010230": {
+        "teachingclassid": "2025202611401023001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14010240": {
+        "teachingclassid": "2025202611401024001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100040": {
+        "teachingclassid": "2025202611410004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100050": {
+        "teachingclassid": "2025202611410005001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100060": {
+        "teachingclassid": "2025202611410006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100210": {
+        "teachingclassid": "2025202611410021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100250": {
+        "teachingclassid": "2025202611410025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100270": {
+        "teachingclassid": "2025202611410027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100370": {
+        "teachingclassid": "2025202611410037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100630": {
+        "teachingclassid": "2025202611410063001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100660": {
+        "teachingclassid": "2025202611410066001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100670": {
+        "teachingclassid": "2025202611410067001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100690": {
+        "teachingclassid": "2025202611410069001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100710": {
+        "teachingclassid": "2025202611410071001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100720": {
+        "teachingclassid": "2025202611410072006",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100780": {
+        "teachingclassid": "2025202611410078001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100850": {
+        "teachingclassid": "2025202611410085001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100870": {
+        "teachingclassid": "2025202611410087001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100880": {
+        "teachingclassid": "2025202611410088001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14100930": {
+        "teachingclassid": "2025202611410093001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14110030": {
+        "teachingclassid": "2025202611411003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14110040": {
+        "teachingclassid": "2025202611411004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14110070": {
+        "teachingclassid": "2025202611411007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14110100": {
+        "teachingclassid": "2025202611411010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14120030": {
+        "teachingclassid": "2025202611412003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14120040": {
+        "teachingclassid": "2025202611412004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14120060": {
+        "teachingclassid": "2025202611412006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14120060T": {
+        "teachingclassid": "20252026114120060T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14120110": {
+        "teachingclassid": "2025202611412011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14130070": {
+        "teachingclassid": "2025202611413007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14130090": {
+        "teachingclassid": "2025202611413009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14140011T": {
+        "teachingclassid": "20252026114140011T05",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14140012": {
+        "teachingclassid": "2025202611414001201",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14140012T": {
+        "teachingclassid": "20252026114140012T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14140013": {
+        "teachingclassid": "2025202611414001301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14140020": {
+        "teachingclassid": "2025202611414002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "14140060": {
+        "teachingclassid": "2025202611414006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15000050": {
+        "teachingclassid": "2025202611500005001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15000120": {
+        "teachingclassid": "2025202611500012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15000130": {
+        "teachingclassid": "2025202611500013001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15000150": {
+        "teachingclassid": "2025202611500015001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15000170": {
+        "teachingclassid": "2025202611500017001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15000180": {
+        "teachingclassid": "2025202611500018003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15000200S": {
+        "teachingclassid": "20252026115000200S01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15010080": {
+        "teachingclassid": "2025202611501008001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15010310": {
+        "teachingclassid": "2025202611501031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15010330": {
+        "teachingclassid": "2025202611501033001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15020070": {
+        "teachingclassid": "2025202611502007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15020270": {
+        "teachingclassid": "2025202611502027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15020340": {
+        "teachingclassid": "2025202611502034001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15030030": {
+        "teachingclassid": "2025202611503003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15030040": {
+        "teachingclassid": "2025202611503004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15030060": {
+        "teachingclassid": "2025202611503006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15030120": {
+        "teachingclassid": "2025202611503012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15030170": {
+        "teachingclassid": "2025202611503017001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15030220": {
+        "teachingclassid": "2025202611503022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040070": {
+        "teachingclassid": "2025202611504007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040110": {
+        "teachingclassid": "2025202611504011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040190": {
+        "teachingclassid": "2025202611504019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040200": {
+        "teachingclassid": "2025202611504020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040250": {
+        "teachingclassid": "2025202611504025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040260": {
+        "teachingclassid": "2025202611504026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040320": {
+        "teachingclassid": "2025202611504032001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040350": {
+        "teachingclassid": "2025202611504035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040360": {
+        "teachingclassid": "2025202611504036001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040370": {
+        "teachingclassid": "2025202611504037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040380": {
+        "teachingclassid": "2025202611504038001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15040390": {
+        "teachingclassid": "2025202611504039001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15050080": {
+        "teachingclassid": "2025202611505008001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15070130": {
+        "teachingclassid": "2025202611507013001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15070190": {
+        "teachingclassid": "2025202611507019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15080120S": {
+        "teachingclassid": "20252026115080120S01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15090100": {
+        "teachingclassid": "2025202611509010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15090120": {
+        "teachingclassid": "2025202611509012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15090160T": {
+        "teachingclassid": "20252026115090160T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "15100020": {
+        "teachingclassid": "2025202611510002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16000020": {
+        "teachingclassid": "2025202611600002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16000130": {
+        "teachingclassid": "2025202611600013001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16000160": {
+        "teachingclassid": "2025202611600016001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16000220S": {
+        "teachingclassid": "20252026116000220S05",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16000230S": {
+        "teachingclassid": "20252026116000230S01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16010410": {
+        "teachingclassid": "2025202611601041001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16010440": {
+        "teachingclassid": "2025202611601044001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16010520": {
+        "teachingclassid": "2025202611601052001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16010590": {
+        "teachingclassid": "2025202611601059001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16010610": {
+        "teachingclassid": "2025202611601061001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16020240": {
+        "teachingclassid": "2025202611602024001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16020260": {
+        "teachingclassid": "2025202611602026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16020300": {
+        "teachingclassid": "2025202611602030001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16020680": {
+        "teachingclassid": "2025202611602068001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16020710": {
+        "teachingclassid": "2025202611602071001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16020800": {
+        "teachingclassid": "2025202611602080001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16020820": {
+        "teachingclassid": "2025202611602082001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16030220I": {
+        "teachingclassid": "20252026116030220I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16030260": {
+        "teachingclassid": "2025202611603026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16040040": {
+        "teachingclassid": "2025202611604004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16040640I": {
+        "teachingclassid": "20252026116040640I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16040740": {
+        "teachingclassid": "2025202611604074001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16040830": {
+        "teachingclassid": "2025202611604083001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16040840": {
+        "teachingclassid": "2025202611604084001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16040860": {
+        "teachingclassid": "2025202611604086001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16040870": {
+        "teachingclassid": "2025202611604087001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16040890": {
+        "teachingclassid": "2025202611604089001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16040900": {
+        "teachingclassid": "2025202611604090001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16040910": {
+        "teachingclassid": "2025202611604091001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16040920": {
+        "teachingclassid": "2025202611604092001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16060010": {
+        "teachingclassid": "2025202611606001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16060880": {
+        "teachingclassid": "2025202611606088001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16060900": {
+        "teachingclassid": "2025202611606090001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16060950": {
+        "teachingclassid": "2025202611606095001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16060960": {
+        "teachingclassid": "2025202611606096001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16060970": {
+        "teachingclassid": "2025202611606097001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16060980": {
+        "teachingclassid": "2025202611606098001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16061010": {
+        "teachingclassid": "2025202611606101001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "16061020": {
+        "teachingclassid": "2025202611606102001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010010": {
+        "teachingclassid": "2025202611701001003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010180": {
+        "teachingclassid": "2025202611701018001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010230": {
+        "teachingclassid": "2025202611701023001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010290": {
+        "teachingclassid": "2025202611701029001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010300": {
+        "teachingclassid": "2025202611701030002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010310": {
+        "teachingclassid": "2025202611701031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010350": {
+        "teachingclassid": "2025202611701035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010360": {
+        "teachingclassid": "2025202611701036001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010410": {
+        "teachingclassid": "2025202611701041001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010490": {
+        "teachingclassid": "2025202611701049001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010560": {
+        "teachingclassid": "2025202611701056003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010570": {
+        "teachingclassid": "2025202611701057002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010630": {
+        "teachingclassid": "2025202611701063001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010660": {
+        "teachingclassid": "2025202611701066001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010730": {
+        "teachingclassid": "2025202611701073002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010780": {
+        "teachingclassid": "2025202611701078001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010830": {
+        "teachingclassid": "2025202611701083001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010870T": {
+        "teachingclassid": "20252026117010870T02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010890": {
+        "teachingclassid": "2025202611701089002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010900": {
+        "teachingclassid": "2025202611701090001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010920": {
+        "teachingclassid": "2025202611701092001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010930": {
+        "teachingclassid": "2025202611701093001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17010950": {
+        "teachingclassid": "2025202611701095001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17011000": {
+        "teachingclassid": "2025202611701100001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17011050S": {
+        "teachingclassid": "20252026117011050S01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "17011060": {
+        "teachingclassid": "2025202611701106001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18000310": {
+        "teachingclassid": "2025202611800031005",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18000510": {
+        "teachingclassid": "2025202611800051002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18000610": {
+        "teachingclassid": "2025202611800061001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18000920": {
+        "teachingclassid": "2025202611800092001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18001160": {
+        "teachingclassid": "2025202611800116001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18001280": {
+        "teachingclassid": "2025202611800128002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18001300": {
+        "teachingclassid": "2025202611800130002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18001320": {
+        "teachingclassid": "2025202611800132001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18001330": {
+        "teachingclassid": "2025202611800133002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18001340": {
+        "teachingclassid": "2025202611800134001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18001350": {
+        "teachingclassid": "2025202611800135001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18001400": {
+        "teachingclassid": "2025202611800140001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18001570T": {
+        "teachingclassid": "20252026118001570T02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18001760": {
+        "teachingclassid": "2025202611800176001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18010410": {
+        "teachingclassid": "2025202611801041002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18010430": {
+        "teachingclassid": "2025202611801043001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18010440": {
+        "teachingclassid": "2025202611801044001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18010991E": {
+        "teachingclassid": "20252026118010991E02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18040110": {
+        "teachingclassid": "2025202611804011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18040210T": {
+        "teachingclassid": "20252026118040210T04",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18041130": {
+        "teachingclassid": "2025202611804113001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18060100": {
+        "teachingclassid": "2025202611806010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18060140": {
+        "teachingclassid": "2025202611806014001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18060150": {
+        "teachingclassid": "2025202611806015001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18060180": {
+        "teachingclassid": "2025202611806018001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18060190": {
+        "teachingclassid": "2025202611806019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18060200": {
+        "teachingclassid": "2025202611806020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18060290": {
+        "teachingclassid": "2025202611806029001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18060310": {
+        "teachingclassid": "2025202611806031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18060360": {
+        "teachingclassid": "2025202611806036001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18090010T": {
+        "teachingclassid": "20252026118090010T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18090070T": {
+        "teachingclassid": "20252026118090070T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "18100040": {
+        "teachingclassid": "2025202611810004002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19000180": {
+        "teachingclassid": "2025202611900018001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19000200": {
+        "teachingclassid": "2025202611900020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19001320A": {
+        "teachingclassid": "20252026119001320A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19001330": {
+        "teachingclassid": "2025202611900133001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19001360": {
+        "teachingclassid": "2025202611900136001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19001380": {
+        "teachingclassid": "2025202611900138001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19001410": {
+        "teachingclassid": "2025202611900141008",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19001450": {
+        "teachingclassid": "2025202611900145001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002260": {
+        "teachingclassid": "2025202611900226001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002280": {
+        "teachingclassid": "2025202611900228001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002380": {
+        "teachingclassid": "2025202611900238001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002420": {
+        "teachingclassid": "2025202611900242001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002450I": {
+        "teachingclassid": "20252026119002450I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002460": {
+        "teachingclassid": "2025202611900246001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002510": {
+        "teachingclassid": "2025202611900251001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002540": {
+        "teachingclassid": "2025202611900254001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002550": {
+        "teachingclassid": "2025202611900255001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002770T": {
+        "teachingclassid": "20252026119002770T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002790": {
+        "teachingclassid": "2025202611900279001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002810": {
+        "teachingclassid": "2025202611900281001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19002870": {
+        "teachingclassid": "2025202611900287001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003060": {
+        "teachingclassid": "2025202611900306002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003100": {
+        "teachingclassid": "2025202611900310002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003160": {
+        "teachingclassid": "2025202611900316002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003170": {
+        "teachingclassid": "2025202611900317002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003200": {
+        "teachingclassid": "2025202611900320001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003240": {
+        "teachingclassid": "2025202611900324001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003270": {
+        "teachingclassid": "2025202611900327001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003280": {
+        "teachingclassid": "2025202611900328001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003290": {
+        "teachingclassid": "2025202611900329001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003320": {
+        "teachingclassid": "2025202611900332002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003340": {
+        "teachingclassid": "2025202611900334001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003370": {
+        "teachingclassid": "2025202611900337001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003390": {
+        "teachingclassid": "2025202611900339001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003420": {
+        "teachingclassid": "2025202611900342001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003430": {
+        "teachingclassid": "2025202611900343001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003440": {
+        "teachingclassid": "2025202611900344001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003480": {
+        "teachingclassid": "2025202611900348001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003490": {
+        "teachingclassid": "2025202611900349001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003530": {
+        "teachingclassid": "2025202611900353001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003540": {
+        "teachingclassid": "2025202611900354001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003640": {
+        "teachingclassid": "2025202611900364006",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003690": {
+        "teachingclassid": "2025202611900369001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003700": {
+        "teachingclassid": "2025202611900370001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003710": {
+        "teachingclassid": "2025202611900371001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003750": {
+        "teachingclassid": "2025202611900375001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003760": {
+        "teachingclassid": "2025202611900376001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003770": {
+        "teachingclassid": "2025202611900377001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "19003780": {
+        "teachingclassid": "2025202611900378001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20020060": {
+        "teachingclassid": "2025202612002006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20020070": {
+        "teachingclassid": "2025202612002007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030090": {
+        "teachingclassid": "2025202612003009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030200": {
+        "teachingclassid": "2025202612003020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030360": {
+        "teachingclassid": "2025202612003036002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030480": {
+        "teachingclassid": "2025202612003048001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030520": {
+        "teachingclassid": "2025202612003052001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030610": {
+        "teachingclassid": "2025202612003061001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030640": {
+        "teachingclassid": "2025202612003064002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030640T": {
+        "teachingclassid": "20252026120030640T02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030670": {
+        "teachingclassid": "2025202612003067001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030680": {
+        "teachingclassid": "2025202612003068001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030690": {
+        "teachingclassid": "2025202612003069001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030700": {
+        "teachingclassid": "2025202612003070001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030710": {
+        "teachingclassid": "2025202612003071001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030710T": {
+        "teachingclassid": "20252026120030710T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030720": {
+        "teachingclassid": "2025202612003072001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030750": {
+        "teachingclassid": "2025202612003075001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030760": {
+        "teachingclassid": "2025202612003076001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20030770": {
+        "teachingclassid": "2025202612003077001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20050020": {
+        "teachingclassid": "2025202612005002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20110030": {
+        "teachingclassid": "2025202612011003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20110040": {
+        "teachingclassid": "2025202612011004003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20110140": {
+        "teachingclassid": "2025202612011014001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20110180": {
+        "teachingclassid": "2025202612011018001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20110480": {
+        "teachingclassid": "2025202612011048001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20110480T": {
+        "teachingclassid": "20252026120110480T03",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20110490": {
+        "teachingclassid": "2025202612011049001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20120050": {
+        "teachingclassid": "2025202612012005001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20120120": {
+        "teachingclassid": "2025202612012012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20120130": {
+        "teachingclassid": "2025202612012013001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20120370": {
+        "teachingclassid": "2025202612012037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20120380": {
+        "teachingclassid": "2025202612012038001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20120410": {
+        "teachingclassid": "2025202612012041001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20120430T": {
+        "teachingclassid": "20252026120120430T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20120440": {
+        "teachingclassid": "2025202612012044001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20130190": {
+        "teachingclassid": "2025202612013019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20130360": {
+        "teachingclassid": "2025202612013036002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20130530": {
+        "teachingclassid": "2025202612013053001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20130540": {
+        "teachingclassid": "2025202612013054001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20130580": {
+        "teachingclassid": "2025202612013058001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "20130610": {
+        "teachingclassid": "2025202612013061001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21000020": {
+        "teachingclassid": "2025202612100002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21000050": {
+        "teachingclassid": "2025202612100005001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21000080A": {
+        "teachingclassid": "20252026121000080A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21000090": {
+        "teachingclassid": "2025202612100009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21000110": {
+        "teachingclassid": "2025202612100011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21000140": {
+        "teachingclassid": "2025202612100014001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21000150": {
+        "teachingclassid": "2025202612100015001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21000200S": {
+        "teachingclassid": "20252026121000200S01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010070": {
+        "teachingclassid": "2025202612101007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010100": {
+        "teachingclassid": "2025202612101010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010270": {
+        "teachingclassid": "2025202612101027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010320": {
+        "teachingclassid": "2025202612101032001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010410I": {
+        "teachingclassid": "20252026121010410I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010470": {
+        "teachingclassid": "2025202612101047001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010480I": {
+        "teachingclassid": "20252026121010480I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010540": {
+        "teachingclassid": "2025202612101054001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010550": {
+        "teachingclassid": "2025202612101055001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010560": {
+        "teachingclassid": "2025202612101056001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010570": {
+        "teachingclassid": "2025202612101057001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010580": {
+        "teachingclassid": "2025202612101058001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010620": {
+        "teachingclassid": "2025202612101062001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010670": {
+        "teachingclassid": "2025202612101067001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "21010680I": {
+        "teachingclassid": "20252026121010680I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22000020": {
+        "teachingclassid": "2025202612200002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22000100": {
+        "teachingclassid": "2025202612200010004",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22000110": {
+        "teachingclassid": "2025202612200011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22000160": {
+        "teachingclassid": "2025202612200016001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22000180T": {
+        "teachingclassid": "20252026122000180T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010020": {
+        "teachingclassid": "2025202612201002004",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010030": {
+        "teachingclassid": "2025202612201003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010050": {
+        "teachingclassid": "2025202612201005002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010100": {
+        "teachingclassid": "2025202612201010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010300": {
+        "teachingclassid": "2025202612201030001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010310": {
+        "teachingclassid": "2025202612201031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010320": {
+        "teachingclassid": "2025202612201032001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010530": {
+        "teachingclassid": "2025202612201053001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010540": {
+        "teachingclassid": "2025202612201054001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010550": {
+        "teachingclassid": "2025202612201055001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010790": {
+        "teachingclassid": "2025202612201079001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22010800": {
+        "teachingclassid": "2025202612201080001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011110": {
+        "teachingclassid": "2025202612201111001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011120": {
+        "teachingclassid": "2025202612201112002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011140": {
+        "teachingclassid": "2025202612201114001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011250": {
+        "teachingclassid": "2025202612201125001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011320": {
+        "teachingclassid": "2025202612201132001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011390": {
+        "teachingclassid": "2025202612201139001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011430": {
+        "teachingclassid": "2025202612201143001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011440": {
+        "teachingclassid": "2025202612201144001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011460": {
+        "teachingclassid": "2025202612201146001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011470T": {
+        "teachingclassid": "20252026122011470T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011500I": {
+        "teachingclassid": "20252026122011500I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011510": {
+        "teachingclassid": "2025202612201151001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011560T": {
+        "teachingclassid": "20252026122011560T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011580": {
+        "teachingclassid": "2025202612201158001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011620": {
+        "teachingclassid": "2025202612201162001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011670": {
+        "teachingclassid": "2025202612201167001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011710": {
+        "teachingclassid": "2025202612201171001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011777G": {
+        "teachingclassid": "20252026122011777G01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22011800": {
+        "teachingclassid": "2025202612201180001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22020010C": {
+        "teachingclassid": "20252026122020010C02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22020230": {
+        "teachingclassid": "2025202612202023001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22020240I": {
+        "teachingclassid": "20252026122020240I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22020250": {
+        "teachingclassid": "2025202612202025003",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22020260": {
+        "teachingclassid": "2025202612202026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22020360": {
+        "teachingclassid": "2025202612202036001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "22020370": {
+        "teachingclassid": "2025202612202037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "23000220": {
+        "teachingclassid": "2025202612300022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "23000470T": {
+        "teachingclassid": "20252026123000470T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "23010350": {
+        "teachingclassid": "2025202612301035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "23010490": {
+        "teachingclassid": "2025202612301049001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "23020340": {
+        "teachingclassid": "2025202612302034001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "23020350": {
+        "teachingclassid": "2025202612302035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "23020620T": {
+        "teachingclassid": "20252026123020620T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "23030280": {
+        "teachingclassid": "2025202612303028001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "24000010": {
+        "teachingclassid": "2025202612400001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "24000070": {
+        "teachingclassid": "2025202612400007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "24020010B": {
+        "teachingclassid": "20252026124020010B02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "24020070": {
+        "teachingclassid": "2025202612402007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "24020140I": {
+        "teachingclassid": "20252026124020140I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "24020150": {
+        "teachingclassid": "2025202612402015001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "24020190": {
+        "teachingclassid": "2025202612402019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "24020230I": {
+        "teachingclassid": "20252026124020230I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25000060": {
+        "teachingclassid": "2025202612500006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25000210": {
+        "teachingclassid": "2025202612500021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25000250": {
+        "teachingclassid": "2025202612500025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25000340": {
+        "teachingclassid": "2025202612500034002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25000510": {
+        "teachingclassid": "2025202612500051001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25000520": {
+        "teachingclassid": "2025202612500052001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25010410": {
+        "teachingclassid": "2025202612501041001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25010710": {
+        "teachingclassid": "2025202612501071001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25010820": {
+        "teachingclassid": "2025202612501082001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25010850": {
+        "teachingclassid": "2025202612501085001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25011230": {
+        "teachingclassid": "2025202612501123001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25011240": {
+        "teachingclassid": "2025202612501124001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25011250": {
+        "teachingclassid": "2025202612501125001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25011260": {
+        "teachingclassid": "2025202612501126001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25011270": {
+        "teachingclassid": "2025202612501127001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25011380": {
+        "teachingclassid": "2025202612501138001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25011410": {
+        "teachingclassid": "2025202612501141001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25011450C": {
+        "teachingclassid": "20252026125011450C01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25011460": {
+        "teachingclassid": "2025202612501146001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "25011490": {
+        "teachingclassid": "2025202612501149001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27000080": {
+        "teachingclassid": "2025202612700008001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27000160": {
+        "teachingclassid": "2025202612700016002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27000170": {
+        "teachingclassid": "2025202612700017001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27000180": {
+        "teachingclassid": "2025202612700018001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27000190": {
+        "teachingclassid": "2025202612700019002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27000200": {
+        "teachingclassid": "2025202612700020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27000220": {
+        "teachingclassid": "2025202612700022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27000313": {
+        "teachingclassid": "2025202612700031301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27010020": {
+        "teachingclassid": "2025202612701002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27010070": {
+        "teachingclassid": "2025202612701007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27010090": {
+        "teachingclassid": "2025202612701009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27010110I": {
+        "teachingclassid": "20252026127010110I01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030010": {
+        "teachingclassid": "2025202612703001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030180": {
+        "teachingclassid": "2025202612703018001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030250T": {
+        "teachingclassid": "20252026127030250T01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030290": {
+        "teachingclassid": "2025202612703029001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030300": {
+        "teachingclassid": "2025202612703030001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030310": {
+        "teachingclassid": "2025202612703031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030370": {
+        "teachingclassid": "2025202612703037001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030450": {
+        "teachingclassid": "2025202612703045001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030500": {
+        "teachingclassid": "2025202612703050001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030510": {
+        "teachingclassid": "2025202612703051001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030560": {
+        "teachingclassid": "2025202612703056001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030570": {
+        "teachingclassid": "2025202612703057001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27030610": {
+        "teachingclassid": "2025202612703061001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27040020": {
+        "teachingclassid": "2025202612704002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27040070": {
+        "teachingclassid": "2025202612704007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27040100": {
+        "teachingclassid": "2025202612704010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27040160": {
+        "teachingclassid": "2025202612704016001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27040190": {
+        "teachingclassid": "2025202612704019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27040300": {
+        "teachingclassid": "2025202612704030001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27050010": {
+        "teachingclassid": "2025202612705001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27050170": {
+        "teachingclassid": "2025202612705017001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27050200": {
+        "teachingclassid": "2025202612705020001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27050240": {
+        "teachingclassid": "2025202612705024001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27050280": {
+        "teachingclassid": "2025202612705028001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27050290": {
+        "teachingclassid": "2025202612705029001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27050310": {
+        "teachingclassid": "2025202612705031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "27050340": {
+        "teachingclassid": "2025202612705034001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28020210": {
+        "teachingclassid": "2025202612802021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28020670": {
+        "teachingclassid": "2025202612802067001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28020730": {
+        "teachingclassid": "2025202612802073001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28020740": {
+        "teachingclassid": "2025202612802074002",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28020960": {
+        "teachingclassid": "2025202612802096001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28020980": {
+        "teachingclassid": "2025202612802098001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28021060A": {
+        "teachingclassid": "20252026128021060A02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28021070A": {
+        "teachingclassid": "20252026128021070A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28021080A": {
+        "teachingclassid": "20252026128021080A02",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28021090A": {
+        "teachingclassid": "20252026128021090A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28021100A": {
+        "teachingclassid": "20252026128021100A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "28021130F": {
+        "teachingclassid": "20252026128021130F01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29010100G": {
+        "teachingclassid": "20252026129010100G01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29010210": {
+        "teachingclassid": "2025202612901021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29010610": {
+        "teachingclassid": "2025202612901061001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29010650": {
+        "teachingclassid": "2025202612901065001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29011550": {
+        "teachingclassid": "2025202612901155001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29011590": {
+        "teachingclassid": "2025202612901159001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29011600": {
+        "teachingclassid": "2025202612901160001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29011610": {
+        "teachingclassid": "2025202612901161001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29011670": {
+        "teachingclassid": "2025202612901167001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29011680S": {
+        "teachingclassid": "20252026129011680S01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29011690S": {
+        "teachingclassid": "20252026129011690S01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29011700S": {
+        "teachingclassid": "20252026129011700S01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29020250": {
+        "teachingclassid": "2025202612902025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29021030": {
+        "teachingclassid": "2025202612902103001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29021090": {
+        "teachingclassid": "2025202612902109001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29021170": {
+        "teachingclassid": "2025202612902117001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29021200": {
+        "teachingclassid": "2025202612902120001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29021220": {
+        "teachingclassid": "2025202612902122001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29021230": {
+        "teachingclassid": "2025202612902123001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29030010": {
+        "teachingclassid": "2025202612903001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29030020": {
+        "teachingclassid": "2025202612903002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29030050": {
+        "teachingclassid": "2025202612903005001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29030070": {
+        "teachingclassid": "2025202612903007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29030080": {
+        "teachingclassid": "2025202612903008001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29030200S": {
+        "teachingclassid": "20252026129030200S01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29030210": {
+        "teachingclassid": "2025202612903021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29030250": {
+        "teachingclassid": "2025202612903025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29030300": {
+        "teachingclassid": "2025202612903030001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "29030310": {
+        "teachingclassid": "2025202612903031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000040": {
+        "teachingclassid": "2025202613000004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000100": {
+        "teachingclassid": "2025202613000010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000110": {
+        "teachingclassid": "2025202613000011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000120": {
+        "teachingclassid": "2025202613000012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000130": {
+        "teachingclassid": "2025202613000013001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000140": {
+        "teachingclassid": "2025202613000014001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000220": {
+        "teachingclassid": "2025202613000022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000230": {
+        "teachingclassid": "2025202613000023001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000280": {
+        "teachingclassid": "2025202613000028001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000330": {
+        "teachingclassid": "2025202613000033001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000350": {
+        "teachingclassid": "2025202613000035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000360": {
+        "teachingclassid": "2025202613000036001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000580": {
+        "teachingclassid": "2025202613000058001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000650": {
+        "teachingclassid": "2025202613000065001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000660": {
+        "teachingclassid": "2025202613000066001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "30000670": {
+        "teachingclassid": "2025202613000067001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010060": {
+        "teachingclassid": "2025202613201006001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010070": {
+        "teachingclassid": "2025202613201007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010100": {
+        "teachingclassid": "2025202613201010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010110": {
+        "teachingclassid": "2025202613201011001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010120": {
+        "teachingclassid": "2025202613201012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010130": {
+        "teachingclassid": "2025202613201013001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010170": {
+        "teachingclassid": "2025202613201017001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010180": {
+        "teachingclassid": "2025202613201018001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010190": {
+        "teachingclassid": "2025202613201019001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010240": {
+        "teachingclassid": "2025202613201024001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010250": {
+        "teachingclassid": "2025202613201025001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010270": {
+        "teachingclassid": "2025202613201027001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010280": {
+        "teachingclassid": "2025202613201028001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010310": {
+        "teachingclassid": "2025202613201031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010350": {
+        "teachingclassid": "2025202613201035001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "32010400S": {
+        "teachingclassid": "20252026132010400S01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000020A": {
+        "teachingclassid": "20252026143000020A01",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000030": {
+        "teachingclassid": "2025202614300003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000050": {
+        "teachingclassid": "2025202614300005001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000070": {
+        "teachingclassid": "2025202614300007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000090": {
+        "teachingclassid": "2025202614300009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000100": {
+        "teachingclassid": "2025202614300010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000120": {
+        "teachingclassid": "2025202614300012001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000160": {
+        "teachingclassid": "2025202614300016001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000170": {
+        "teachingclassid": "2025202614300017001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000210": {
+        "teachingclassid": "2025202614300021001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000220": {
+        "teachingclassid": "2025202614300022001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000230": {
+        "teachingclassid": "2025202614300023001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000260": {
+        "teachingclassid": "2025202614300026001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000290": {
+        "teachingclassid": "2025202614300029001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "43000310": {
+        "teachingclassid": "2025202614300031001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "72010040": {
+        "teachingclassid": "2025202617201004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "76070030": {
+        "teachingclassid": "2025202617607003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "79000010": {
+        "teachingclassid": "2025202617900001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "79010010": {
+        "teachingclassid": "2025202617901001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "80030030": {
+        "teachingclassid": "2025202618003003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "80030040": {
+        "teachingclassid": "2025202618003004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "80030080": {
+        "teachingclassid": "2025202618003008001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90013101": {
+        "teachingclassid": "2025202619001310101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90111104": {
+        "teachingclassid": "2025202619011110401",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90111201": {
+        "teachingclassid": "2025202619011120103",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90111202": {
+        "teachingclassid": "2025202619011120201",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90111203": {
+        "teachingclassid": "2025202619011120301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90112301": {
+        "teachingclassid": "2025202619011230101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90112302": {
+        "teachingclassid": "2025202619011230201",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90113301": {
+        "teachingclassid": "2025202619011330101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90113302": {
+        "teachingclassid": "2025202619011330201",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90113401": {
+        "teachingclassid": "2025202619011340101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90113402": {
+        "teachingclassid": "2025202619011340201",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90113403": {
+        "teachingclassid": "2025202619011340301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90113404": {
+        "teachingclassid": "2025202619011340401",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90113405": {
+        "teachingclassid": "2025202619011340501",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90113406": {
+        "teachingclassid": "2025202619011340601",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90211201": {
+        "teachingclassid": "2025202619021120102",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90211202": {
+        "teachingclassid": "2025202619021120202",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90212301": {
+        "teachingclassid": "2025202619021230101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90212302": {
+        "teachingclassid": "2025202619021230201",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90212303": {
+        "teachingclassid": "2025202619021230301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90213102": {
+        "teachingclassid": "2025202619021310201",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90213304": {
+        "teachingclassid": "2025202619021330402",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90213307": {
+        "teachingclassid": "2025202619021330701",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90213309": {
+        "teachingclassid": "2025202619021330901",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90213401": {
+        "teachingclassid": "2025202619021340101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90213409": {
+        "teachingclassid": "2025202619021340901",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90311202": {
+        "teachingclassid": "2025202619031120203",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90311203": {
+        "teachingclassid": "2025202619031120301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90311204": {
+        "teachingclassid": "2025202619031120401",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90311208": {
+        "teachingclassid": "2025202619031120801",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90311303": {
+        "teachingclassid": "2025202619031130301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90311304": {
+        "teachingclassid": "2025202619031130401",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90312201": {
+        "teachingclassid": "2025202619031220101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90312202": {
+        "teachingclassid": "2025202619031220201",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90313203": {
+        "teachingclassid": "2025202619031320301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90313302": {
+        "teachingclassid": "2025202619031330201",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90313303": {
+        "teachingclassid": "2025202619031330301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90313401": {
+        "teachingclassid": "2025202619031340101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90313404": {
+        "teachingclassid": "2025202619031340401",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90313405": {
+        "teachingclassid": "2025202619031340501",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90411201": {
+        "teachingclassid": "2025202619041120101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90411202": {
+        "teachingclassid": "2025202619041120201",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90411203": {
+        "teachingclassid": "2025202619041120301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90412201": {
+        "teachingclassid": "2025202619041220101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90412303": {
+        "teachingclassid": "2025202619041230301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90412304": {
+        "teachingclassid": "2025202619041230401",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90413201": {
+        "teachingclassid": "2025202619041320101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90413204": {
+        "teachingclassid": "2025202619041320401",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90413301": {
+        "teachingclassid": "2025202619041330101",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "90413303": {
+        "teachingclassid": "2025202619041330301",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "91020090": {
+        "teachingclassid": "2025202619102009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "91040010": {
+        "teachingclassid": "2025202619104001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "91040040": {
+        "teachingclassid": "2025202619104004001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "91070070": {
+        "teachingclassid": "2025202619107007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "91070090": {
+        "teachingclassid": "2025202619107009001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "91140070": {
+        "teachingclassid": "2025202619114007001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "91140100": {
+        "teachingclassid": "2025202619114010001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "91150020": {
+        "teachingclassid": "2025202619115002001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "91190010": {
+        "teachingclassid": "2025202619119001001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "91190030": {
+        "teachingclassid": "2025202619119003001",
+        "courseKind": "12",
+        "teachingClassType": "KZY"
+    },
+    "00010011C": {
+        "teachingclassid": "20252026100010011C14",
+        "courseKind": "13",
+        "teachingClassType": "TX01"
+    },
+    "00010011A": {
+        "teachingclassid": "20252026100010011A17",
+        "courseKind": "13",
+        "teachingClassType": "TX01"
+    },
+    "00000110": {
+        "teachingclassid": "2025202610000011002",
+        "courseKind": "15",
+        "teachingClassType": "TX03"
+    },
+    "00000090A": {
+        "teachingclassid": "20252026100000090A04",
+        "courseKind": "15",
+        "teachingClassType": "TX03"
+    },
+    "00000130A": {
+        "teachingclassid": "20252026100000130A11",
+        "courseKind": "15",
+        "teachingClassType": "TX03"
+    },
+    "00000041": {
+        "teachingclassid": "2025202610000004117",
+        "courseKind": "15",
+        "teachingClassType": "TX03"
+    }
+}
