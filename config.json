@@ -1,0 +1,6 @@
+{
+  "AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.9.10 Chrome/138.0.7204.224 Electron/37.3.0 Safari/537.36",
+  "HASH_KEY": ["this", "password", "is"],
+  "AES_KEY" : "MWMqg2tPcDkxcm11",
+  "WAIT_TIME": 3
+}
