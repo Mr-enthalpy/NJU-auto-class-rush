@@ -29,7 +29,8 @@ if __name__ == "__main__":
     PWD = get_hash(RAW_PWD, KEYS)
     AGENT = config['AGENT']
     session, XKLCDM = login(XH, RAW_PWD, AGENT)
-
+    def re_login():
+        _session, _ = login(XH, RAW_PWD, AGENT)
+        return _session
     final_class_list = [{**{"operationType":"1","studentCode":XH,"electiveBatchCode":XKLCDM}, **course} for course in Class_list]
-    # {"courseKind":"6,7","teachingClassType":"GG02"}
-    watch(Class_id_list, final_class_list, session, XH)
+    watch(Class_id_list, final_class_list, session, XH, re_login)

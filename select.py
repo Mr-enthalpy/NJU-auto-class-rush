@@ -1,6 +1,7 @@
 import base64
 import copy
 import json
+import random
 import time
 
 from Crypto.Cipher import AES
@@ -45,7 +46,7 @@ def _check(session, course, xh):
     res = session.post("https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/elective/studentstatus.do", data={"studentCode": xh, "teachingClassId": course["data"]["teachingClassId"], "type": "0"}, )
     return res
 
-def watch(idlist, clist, session, xh):
+def watch(idlist, clist, session, xh, re_login):
     with open('config.json', 'r') as f:
         config = json.load(f)
     W_TIME = config['WAIT_TIME']
@@ -59,11 +60,14 @@ def watch(idlist, clist, session, xh):
                 status = _select(session, course).json()
                 msg = status['msg']
                 print(f'Class {idlist[i]} message: {msg}')
-                time.sleep(W_TIME)
+                jitter = random.uniform(W_TIME * 0.7, W_TIME * 1.3)
+                time.sleep(jitter)
             except:
                 continue
             msg = status['msg']
             if msg == "非法请求":
+                print("Logged out, please try to resume...")
+                session = re_login()
                 continue
             if status["code"] == "1" or msg == "请按顺序选课":
                 try:
