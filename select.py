@@ -64,7 +64,7 @@ def watch(idlist, clist, session, xh):
                 continue
             msg = status['msg']
             if msg == "非法请求":
-                return False
+                continue
             if status["code"] == "1" or msg == "请按顺序选课":
                 try:
                     _check(session, course, xh)
