@@ -60,8 +60,7 @@ def watch(idlist, clist, session, xh, re_login):
                 status = _select(session, course).json()
                 msg = status['msg']
                 print(f'Class {idlist[i]} message: {msg}')
-                jitter = random.uniform(W_TIME * 0.7, W_TIME * 1.3)
-                time.sleep(jitter)
+                time.sleep(W_TIME)
             except:
                 continue
             msg = status['msg']
