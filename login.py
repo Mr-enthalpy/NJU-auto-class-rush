@@ -1,65 +1,98 @@
-import requests
+import base64
 import json
-from playwright.sync_api import sync_playwright
+import re
+import time
+
+import cv2
+import numpy as np
+import requests
+
+from auto_code import solve_query
 
 
-def login(xh, raw_pwd, agent):
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        context = browser.new_context()
-        page = context.new_page()
-        page.goto("https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do")
+def extract_vcode_image(src: str) -> np.ndarray:
+    header, b64_data = src.split(",", 1)
+    img_bytes = base64.b64decode(b64_data)
 
-        # 自动填账号密码（也可以交由你自己填写）
-        page.fill("#loginName", xh)
-        page.fill("#loginPwd", raw_pwd)
+    # 解码为图像（OpenCV 格式：BGR ndarray）
+    arr = np.frombuffer(img_bytes, dtype=np.uint8)
+    img = cv2.imdecode(arr, cv2.IMREAD_COLOR)  # shape: (H, W, 3)
 
-        print("🧠 请手动填写验证码并点击登录，完成后回到终端按下回车")
-        input()
+    if img is None:
+        raise ValueError("图像解码失败：检查 base64 格式是否正确")
 
-        page.wait_for_load_state("networkidle")
-        cookies = context.cookies()
+    return img  # 返回 OpenCV 图像格式
 
-        # 提取 token：页面 localStorage 或 cookie 可能存有 login_token
-        login_token = page.evaluate("localStorage.getItem('token')")
-        if not login_token:
-            login_token = page.evaluate("sessionStorage.getItem('token')")
+def get_captcha_and_token(session) -> tuple[np.ndarray, str]:
+    resp = session.post("https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/student/4/vcode.do")
+    data = resp.json()["data"]
+    img = extract_vcode_image(data["vode"])
+    uuid = data["uuid"]
+    return img, uuid
 
-        if not login_token:
-            print("⚠️ 未能提取 login_token，请检查页面结构")
-            browser.close()
-            raise Exception("登录失败")
 
-        print("✅ 登录成功，提取 cookies + token")
+def login(xh: str, pwd: str, agent: str) -> tuple[requests.Session, str]:
+    """
+    :param xh: 学号
+    :param pwd: 密码（已加密）
+    :param agent: User-Agent
+    :param solve_query: 验证码图像识别函数，输入 bytes -> 输出 [(x1, y1), (x2, y2), ...]
+    :return: (已登录的 session, xklcdm)
+    """
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": agent,
+        "Referer": "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do",
+        "Connection": "close",  # 避免连接复用触发底层奇怪状态
+    })
+    while True:
+        try:
+            img, uuid = get_captcha_and_token(session)
+            order = solve_query(img)
+            code_str = ",".join([f"{y}-{x}" for x, y in order])
+            payload = {
+                "loginName": xh,
+                "loginPwd": pwd,
+                "verifyCode": code_str,
+                "vtoken": "null",
+                "uuid": uuid
+            }
 
-        # 注入 requests.Session
-        session = requests.Session()
-        session.headers.update({
-            "User-Agent": agent,
-            "Referer": "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do",
-            "token": login_token,
-        })
+            resp = session.post("https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/student/check/login.do", data=payload)
+            res = resp.json()
+            if res.get("code") == '1':
+                print("✅ 登录成功")
+                break
+            else:
+                print(f"⚠️ 登录失败，原因：{res.get('msg', '未知错误')}，正在重试...")
+                continue
+        except Exception as e:
+            print(f"⚠️ 发生异常：{e}，正在重试...")
 
-        for cookie in cookies:
-            session.cookies.set(cookie['name'], cookie['value'], domain=cookie['domain'])
-        xklcdm = login_and_get_batch_info(page)
-        # 可选：测试一次是否真的登录成功
-        res = session.post("https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/student/xkxf.do", data={"xh": xh, "xklcdm": xklcdm}).json()
-        print(res.get("msg", "登录状态测试完成"))
+    login_token = res["data"]["token"]
 
-        browser.close()
-        return session, xklcdm
+    # 更新 session headers 添加 token
+    session.headers.update({
+        "token": login_token
+    })
 
-def login_and_get_batch_info(page):
-    # 页面登录完成后，提取 sessionStorage 内容
-    current_batch_json = page.evaluate("sessionStorage.getItem('currentBatch')")
+    xklcdm = get_xklcdm(session)
 
-    current_batch = json.loads(current_batch_json)
+    print(f"✅ 当前选课轮次为：{xklcdm}")
+    return session, xklcdm
 
-    xklcdm = current_batch["code"]
-    can_select = current_batch["canSelect"]
 
-    if can_select != "1":
-        raise Exception(f"当前选课轮次 {xklcdm} 不处于开放状态")
+def get_xklcdm(session):
+    url = "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/elective/batch.do"
+    resp = session.post(url)
+    resp.raise_for_status()
+    data = resp.json()
 
-    return xklcdm
+    if data.get("code") != "1":
+        raise Exception("获取 batch 信息失败")
+
+    for batch in data.get("dataList", []):
+        return batch["code"]
+
+    raise Exception("未找到可选的选课轮次")
+
