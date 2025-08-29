@@ -17,19 +17,23 @@ if __name__ == "__main__":
     while True:
         choice: str= input().strip().upper()
         if choice in ['Y', 'N']:
-            try:
-                with open('user.json', 'r') as f:
-                    user_data = json.load(f)
-                Class_id_list = user_data['CLASS_ID_LIST']
-                Class_list = [all_courses[cid] for cid in Class_id_list if cid in all_courses]
-                XH = user_data['XH']
-                RAW_PWD = user_data['RAW_PWD']
-                print(f"已加载上次保存的学号密码和课程号课程号: {Class_id_list}")
-                load_flag = True
-            except Exception as e:
-                print(f"加载失败: {e}")
-            break
-        print('输入有误，请重新输入(Y/N)')
+            if choice == 'Y':
+                try:
+                    with open('user.json', 'r') as f:
+                        user_data = json.load(f)
+                    Class_id_list = user_data['CLASS_ID_LIST']
+                    Class_list = [all_courses[cid] for cid in Class_id_list if cid in all_courses]
+                    XH = user_data['XH']
+                    RAW_PWD = user_data['RAW_PWD']
+                    print(f"已加载上次保存的学号密码和课程号课程号: {Class_id_list}")
+                    load_flag = True
+                except Exception as e:
+                    print(f"加载失败: {e}")
+                break
+            elif choice == 'N':
+                break
+            else:
+                print('输入有误，请重新输入(Y/N)')
     print('下面输入add class_id以添加课程号，输入del class_id以删除课程号，可以同时添加或删除多个课程号，课程号间以空格间隔。')
     print('输入show以查看当前课程号，输入exit退出添加课程号环节，输入help以查看帮助。')
     while True:
