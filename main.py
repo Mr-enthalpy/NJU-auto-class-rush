@@ -47,8 +47,13 @@ if __name__ == "__main__":
         if command == 'exit':
             break
         elif command == 'help':
-            print('下面输入add class_id以添加课程号，输入del class_id以删除课程号，可以同时添加或删除多个课程号，课程号间以空格间隔。')
-            print('输入show以查看当前课程号，输入exit退出添加课程号环节，输入help以查看帮助。')
+            print('输入add class_id1 class_id2 ...以添加课程号\n'
+                  '输入del class_id1 class_id2 ...以删除课程号\n'
+                  '输入load加载上次课程号到列表中\n'
+                  '输入clear清除当前课程号列表\n'
+                  '输入show以查看当前课程号\n'
+                  '输入exit退出添加课程号环\n'
+                  '输入help以查看帮助。')
         elif command == 'show':
             print(f"当前课程号: {Class_id_list}")
         elif command.startswith('add '):
