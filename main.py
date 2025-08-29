@@ -21,11 +21,9 @@ if __name__ == "__main__":
                 try:
                     with open('user.json', 'r') as f:
                         user_data = json.load(f)
-                    Class_id_list = user_data['CLASS_ID_LIST']
-                    Class_list = [all_courses[cid] for cid in Class_id_list if cid in all_courses]
                     XH = user_data['XH']
                     RAW_PWD = user_data['RAW_PWD']
-                    print(f"已加载上次保存的学号密码: {Class_id_list}")
+                    print(f"已加载上次保存的学号密码")
                     load_flag = True
                 except Exception as e:
                     print(f"加载失败: {e}")
@@ -42,6 +40,7 @@ if __name__ == "__main__":
           '输入show以查看当前课程号\n'
           '输入exit退出添加课程号环\n'
           '输入help以查看帮助。')
+    save_Class_id_list = None
     while True:
         command = input(">>> ").strip().lower()
         if command == 'exit':
@@ -69,13 +68,14 @@ if __name__ == "__main__":
                     print(f"课程号 {class_id} 不存在")
         elif command == 'load':
             try:
-                with open('user.json', 'r') as f:
-                    user_data = json.load(f)
-                save_Class_id_list = user_data['CLASS_ID_LIST']
-                load_class_id_list = [cid for cid in save_Class_id_list if cid in all_courses]
+                if save_Class_id_list is None:
+                    with open('user.json', 'r') as f:
+                        user_data = json.load(f)
+                    save_Class_id_list = user_data['CLASS_ID_LIST']
+                load_class_id_list = [cid for cid in save_Class_id_list if cid in all_courses and cid not in Class_id_list]
                 load_Class_list = [all_courses[cid] for cid in load_class_id_list]
-                Class_id_list = list(set(load_Class_list) | set(Class_id_list))
-                Class_list = list(set(Class_id_list) | set(Class_list))
+                Class_id_list += load_class_id_list
+                Class_list += load_Class_list
                 print(f"已加载上次保存的课程号: {load_class_id_list}")
             except Exception as e:
                 print(f"加载失败: {e}")
