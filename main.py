@@ -8,7 +8,7 @@ if __name__ == "__main__":
     with open('courses.json', 'r') as f:
         all_courses = json.load(f)
     print('欢迎使用自动选课程序！')
-    print('是否加载上次保存的学号密码和课程号？(Y/N)')
+    print('是否加载上次抢课时使用的学号密码？(Y/N)')
     Class_list: list[dict] = []
     Class_id_list: list[str] = []
     XH = ''
@@ -25,7 +25,7 @@ if __name__ == "__main__":
                     Class_list = [all_courses[cid] for cid in Class_id_list if cid in all_courses]
                     XH = user_data['XH']
                     RAW_PWD = user_data['RAW_PWD']
-                    print(f"已加载上次保存的学号密码和课程号课程号: {Class_id_list}")
+                    print(f"已加载上次保存的学号密码: {Class_id_list}")
                     load_flag = True
                 except Exception as e:
                     print(f"加载失败: {e}")
@@ -34,8 +34,14 @@ if __name__ == "__main__":
                 break
             else:
                 print('输入有误，请重新输入(Y/N)')
-    print('下面输入add class_id以添加课程号，输入del class_id以删除课程号，可以同时添加或删除多个课程号，课程号间以空格间隔。')
-    print('输入show以查看当前课程号，输入exit退出添加课程号环节，输入help以查看帮助。')
+    print('指令提示：')
+    print('输入add class_id1 class_id2 ...以添加课程号\n'
+          '输入del class_id1 class_id2 ...以删除课程号\n'
+          '输入load加载上次课程号到列表中\n'
+          '输入clear清除当前课程号列表\n'
+          '输入show以查看当前课程号\n'
+          '输入exit退出添加课程号环\n'
+          '输入help以查看帮助。')
     while True:
         command = input(">>> ").strip().lower()
         if command == 'exit':
@@ -56,6 +62,18 @@ if __name__ == "__main__":
                         print(f"待添加课程号 {class_id} 非法")
                 else:
                     print(f"课程号 {class_id} 不存在")
+        elif command == 'load':
+            try:
+                with open('user.json', 'r') as f:
+                    user_data = json.load(f)
+                save_Class_id_list = user_data['CLASS_ID_LIST']
+                load_class_id_list = [cid for cid in save_Class_id_list if cid in all_courses]
+                load_Class_list = [all_courses[cid] for cid in load_class_id_list]
+                Class_id_list = list(set(load_Class_list) | set(Class_id_list))
+                Class_list = list(set(Class_id_list) | set(Class_list))
+                print(f"已加载上次保存的课程号: {load_class_id_list}")
+            except Exception as e:
+                print(f"加载失败: {e}")
         elif command.startswith('del '):
             class_ids = command[4:].strip().split()
             for class_id in class_ids:
@@ -68,6 +86,9 @@ if __name__ == "__main__":
                         print(f"待删除课程号 {class_id} 不存在")
                 else:
                     print(f"课程号 {class_id} 非法")
+        elif command == 'clear':
+            Class_id_list = []
+            Class_list = []
         else:
             print('输入有误，请重新输入(help以查看帮助)')
     if not load_flag:
