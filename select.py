@@ -1,10 +1,13 @@
 import base64
 import copy
 import json
-import random
 import time
+import itertools
 
 from Crypto.Cipher import AES
+from rich.console import Console
+from rich.live import Live
+from rich.table import Table
 
 
 def _pad_pkcs7(data: bytes) -> bytes:
@@ -50,31 +53,49 @@ def watch(idlist, clist, session, xh, re_login):
     with open('config.json', 'r') as f:
         config = json.load(f)
     W_TIME = config['WAIT_TIME']
+    console = Console()
     stat = [True for _ in range(len(clist))]
-    while any(stat):
-        for i, course in enumerate(clist):
-            if not stat[i]:
-                print(f"Class {idlist[i]} Success!")
-                continue
-            try:
-                status = _select(session, course).json()
-                msg = status['msg']
-                print(f'Class {idlist[i]} message: {msg}')
-                time.sleep(W_TIME)
-            except:
-                continue
-            msg = status['msg']
-            if msg == "非法请求":
-                print("Logged out, please try to resume...")
-                session = re_login()
-                continue
-            if status["code"] == "1" or msg == "请按顺序选课":
+    msg_list = ["等待中..." for _ in range(len(clist))]
+
+    spinner = itertools.cycle(["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"])
+
+    def build_table(flash_icon=""):
+        table = Table(title="选课状态监视器", show_lines=True)
+        table.add_column("课程ID", justify="center")
+        table.add_column("状态", justify="left")
+        for cid, msg in zip(idlist, msg_list):
+            table.add_row(cid, msg)
+        return table
+
+    with Live(build_table(), refresh_per_second=10, console=console) as live:
+        while any(stat):
+            flash = next(spinner)  # 当前帧字符
+            for i, course in enumerate(clist):
+                if not stat[i]:
+                    continue
                 try:
-                    _check(session, course, xh)
+                    status = _select(session, course).json()
+                    time.sleep(W_TIME)
+                    msg = status.get("msg", "未知状态")
                 except:
-                    pass
-                stat[i] = False
-                print(f"Class {idlist[i]} Success!")
+                    msg = "网络异常，重试中..."
+                if msg == "非法请求":
+                    msg = "登录失效，正在重登..."
+                    session = re_login()
+                elif status.get("code") == "1" or msg == "请按顺序选课":
+                    try:
+                        _check(session, course, xh)
+                    except:
+                        pass
+                    stat[i] = False
+                    msg = "✅ 抢课成功"
+                else:
+                    # 添加闪动符号
+                    msg = f"{flash} 正在尝试：{msg}"
+
+                msg_list[i] = msg
+            live.update(build_table())
+
 
 
 def select_from_alternative_list(clist, session, xh):

@@ -7,17 +7,16 @@ from select import watch
 if __name__ == "__main__":
     with open('courses.json', 'r') as f:
         all_courses = json.load(f)
-    print('下面请输入你想要抢的课程，每输完一个按回车，输入exit退出，输入load加载上次保存的学号密码和课程号')
+    print('欢迎使用自动选课程序！')
+    print('是否加载上次保存的学号密码和课程号？(Y/N)')
     Class_list: list[dict] = []
     Class_id_list: list[str] = []
-    load_flag: bool = False
     XH = ''
     RAW_PWD = ''
+    load_flag: bool = False
     while True:
-        class_id = input("课程号: ").strip()
-        if class_id == 'exit':
-            break
-        elif class_id == 'load':
+        choice: str= input().strip().upper()
+        if choice in ['Y', 'N']:
             try:
                 with open('user.json', 'r') as f:
                     user_data = json.load(f)
@@ -25,19 +24,48 @@ if __name__ == "__main__":
                 Class_list = [all_courses[cid] for cid in Class_id_list if cid in all_courses]
                 XH = user_data['XH']
                 RAW_PWD = user_data['RAW_PWD']
-                print(f"已加载上次保存的课程号: {Class_id_list}")
+                print(f"已加载上次保存的学号密码和课程号课程号: {Class_id_list}")
                 load_flag = True
             except Exception as e:
                 print(f"加载失败: {e}")
-            continue
-        elif class_id not in all_courses:
-            print("课程号不存在，请重新输入")
-            continue
-        elif class_id in Class_id_list:
-            print("课程号已存在，请重新输入")
-            continue
-        Class_list.append(all_courses[class_id])
-        Class_id_list.append(class_id)
+            break
+        print('输入有误，请重新输入(Y/N)')
+    print('下面输入add class_id以添加课程号，输入del class_id以删除课程号，可以同时添加或删除多个课程号，课程号间以空格间隔。')
+    print('输入show以查看当前课程号，输入exit退出添加课程号环节，输入help以查看帮助。')
+    while True:
+        command = input(">>> ").strip().lower()
+        if command == 'exit':
+            break
+        elif command == 'help':
+            print('下面输入add class_id以添加课程号，输入del class_id以删除课程号，可以同时添加或删除多个课程号，课程号间以空格间隔。')
+            print('输入show以查看当前课程号，输入exit退出添加课程号环节，输入help以查看帮助。')
+        elif command == 'show':
+            print(f"当前课程号: {Class_id_list}")
+        elif command.startswith('add '):
+            class_ids = command[4:].strip().split()
+            for class_id in class_ids:
+                if class_id in all_courses:
+                    if class_id not in Class_id_list:
+                        Class_list.append(all_courses[class_id])
+                        Class_id_list.append(class_id)
+                    else:
+                        print(f"待添加课程号 {class_id} 非法")
+                else:
+                    print(f"课程号 {class_id} 不存在")
+        elif command.startswith('del '):
+            class_ids = command[4:].strip().split()
+            for class_id in class_ids:
+                if class_id in all_courses:
+                    if class_id in Class_id_list:
+                        idx = Class_id_list.index(class_id)
+                        Class_id_list.pop(idx)
+                        Class_list.pop(idx)
+                    else:
+                        print(f"待删除课程号 {class_id} 不存在")
+                else:
+                    print(f"课程号 {class_id} 非法")
+        else:
+            print('输入有误，请重新输入(help以查看帮助)')
     if not load_flag:
         print('输入你的学号，密码')
         XH = input("学号: ").strip()
