@@ -49,7 +49,7 @@ if __name__ == "__main__":
           '输入load加载上次课程号到列表中\n'
           '输入clear清除当前课程号列表\n'
           '输入show以查看当前课程号\n'
-          '输入exit退出添加课程号环\n'
+          '输入exit退出添加课程号环节\n'
           '输入help以查看帮助。')
     save_Class_id_list = None
     while True:
@@ -63,7 +63,7 @@ if __name__ == "__main__":
                   '输入load加载上次课程号到列表中\n'
                   '输入clear清除当前课程号列表\n'
                   '输入show以查看当前课程号\n'
-                  '输入exit退出添加课程号环\n'
+                  '输入exit退出添加课程号环节\n'
                   '输入help以查看帮助。')
         elif command == 'show':
             for class_id in Class_list:
@@ -73,7 +73,7 @@ if __name__ == "__main__":
                         for c in course:
                             print(f"课程ID{class_id},  课程名: {c['name']}, 课程信息: {c['detail']}, 上课地点: {c['location']}")
                     case dict():
-                        print(f"课程ID{class_id},  课程名: {course['name']}, 课程信息: {course['detail']}, 上课地点: {course['location']}")
+                        print(f"课程ID：{class_id},  课程名: {course['name']}, 课程信息: {course['detail']}, 上课地点: {course['location']}")
         elif command.startswith('add '):
             class_ids = command[4:].strip().split()
             for class_id in class_ids:
