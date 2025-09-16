@@ -31,7 +31,7 @@ def get_captcha_and_token(session) -> tuple[np.ndarray, str]:
     return img, uuid
 
 
-def login(xh: str, pwd: str, agent: str) -> tuple[requests.Session, str]:
+def login(xh: str, pwd: str, agent: str, code: bool) -> tuple[requests.Session, str]:
     """
     :param xh: 学号
     :param pwd: 密码（已加密）
@@ -76,13 +76,13 @@ def login(xh: str, pwd: str, agent: str) -> tuple[requests.Session, str]:
         "token": login_token
     })
 
-    xklcdm = get_xklcdm(session)
+    xklcdm = get_xklcdm(session, code)
 
     print(f"✅ 当前选课轮次为：{xklcdm}")
     return session, xklcdm
 
 
-def get_xklcdm(session):
+def get_xklcdm(session, code = False) -> str:
     url = "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/elective/batch.do"
     resp = session.post(url)
     resp.raise_for_status()
@@ -91,8 +91,14 @@ def get_xklcdm(session):
     if data.get("code") != "1":
         raise Exception("获取 batch 信息失败")
 
-    for batch in data.get("dataList", []):
-        return batch["code"]
+    # for batch in data.get("dataList", []):
+    #     return batch["code"]
+    # code 为True表示新生，选择第二个。
+    if code:
+        if len(data.get("dataList", [])) >= 2:
+            return data["dataList"][1]["code"]
+    else:
+        if len(data.get("dataList", [])) >= 1:
+            return data["dataList"][0]["code"]
 
     raise Exception("未找到可选的选课轮次")
-
