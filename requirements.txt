@@ -1,0 +1,8 @@
+beautifulsoup4
+numpy
+opencv-python
+pycryptodome
+requests
+rich
+scikit-learn
+scipy
