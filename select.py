@@ -3,6 +3,7 @@ import copy
 import json
 import time
 import itertools
+from pathlib import Path
 
 from Crypto.Cipher import AES
 from rich.console import Console
@@ -10,12 +11,16 @@ from rich.live import Live
 from rich.table import Table
 
 
+BASE_URL = "https://xk.nju.edu.cn/xsxkapp"
+CONFIG_FILE = Path(__file__).resolve().parent / "config.json"
+
+
 def _pad_pkcs7(data: bytes) -> bytes:
     pad_len = 16 - (len(data) % 16)
     return data + bytes([pad_len] * pad_len)
 
 def _encrypt_add_param(raw_data: dict) -> str:
-    with open('config.json', 'r') as f:
+    with CONFIG_FILE.open('r', encoding='utf-8') as f:
         config = json.load(f)
     AES_KEY = config['AES_KEY'].encode("utf-8")
     # step1: 转换为 JSON 字符串
@@ -37,20 +42,29 @@ def _encrypt_add_param(raw_data: dict) -> str:
 def _select(session, raw_param):
     encrypted = _encrypt_add_param(raw_param)
     return session.post(
-        "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/elective/volunteer.do",
+        f"{BASE_URL}/sys/xsxkapp/elective/volunteer.do",
         data={
             "addParam": encrypted,
             "studentCode": raw_param["studentCode"]
-        }
+        },
+        timeout=20,
     )
 
 
 def _check(session, course, xh):
-    res = session.post("https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/elective/studentstatus.do", data={"studentCode": xh, "teachingClassId": course["data"]["teachingClassId"], "type": "0"}, )
+    res = session.post(
+        f"{BASE_URL}/sys/xsxkapp/elective/studentstatus.do",
+        data={
+            "studentCode": xh,
+            "teachingClassId": course.get("data", course)["teachingClassId"],
+            "type": "0",
+        },
+        timeout=20,
+    )
     return res
 
 def watch(idlist, clist, session, xh, re_login):
-    with open('config.json', 'r') as f:
+    with CONFIG_FILE.open('r', encoding='utf-8') as f:
         config = json.load(f)
     W_TIME = config['WAIT_TIME']
     console = Console()
@@ -73,19 +87,20 @@ def watch(idlist, clist, session, xh, re_login):
             for i, course in enumerate(clist):
                 if not stat[i]:
                     continue
+                status = {}
                 try:
                     status = _select(session, course).json()
                     time.sleep(W_TIME)
                     msg = status.get("msg", "未知状态")
-                except:
+                except Exception:
                     msg = "网络异常，重试中..."
                 if msg == "非法请求":
                     msg = "登录失效，正在重登..."
                     session = re_login()
-                elif status.get("code") == "1" or msg == "请按顺序选课":
+                elif str(status.get("code")) == "1" or msg == "请按顺序选课":
                     try:
                         _check(session, course, xh)
-                    except:
+                    except Exception:
                         pass
                     stat[i] = False
                     msg = "✅ 抢课成功"
@@ -114,7 +129,7 @@ def select_from_alternative_list(clist, session, xh):
                 err += 1
                 print(f"{err} err: {e}")
                 continue
-            msg = status['msg']
+            msg = status.get('msg', '未知状态')
             print(f"{cnt}: {msg}")
             if msg == "当前时间不在选课开放时间范围内":
                 time.sleep(U_TIME)
@@ -122,13 +137,13 @@ def select_from_alternative_list(clist, session, xh):
             if msg == "非法请求":
                 print("Logged Out\nResuming...")
                 return False
-            if status["code"] == 1 or msg == "请按顺序选课":
+            if str(status.get("code")) == "1" or msg == "请按顺序选课":
                 try:
                     _check(session, course, xh)
-                except:
+                except Exception:
                     pass
                 return True
-            if msg == "该课程超过课容量" or status["extmsg"] == "已满" :
+            if msg == "该课程超过课容量" or status.get("extmsg") == "已满":
                 clist = clist[1:]
             print(status)
     return False

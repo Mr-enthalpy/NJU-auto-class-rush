@@ -1,62 +1,85 @@
-import bs4
-from bs4 import BeautifulSoup
+from __future__ import annotations
+
+import argparse
 import json
+from pathlib import Path
+from typing import Any
 
-if __name__ == '__main__':
-    TRANS = {"ZY": "1", "TY": "2", "GG01": "4", "GG02": "6,7", "GG06": '3', "YD": "8", "MY": "5", "KZY": "12", "TX01": "13", "TX02": "14", "TX03": "15", "TX04": "16"}
-    result = {}
+from bs4 import BeautifulSoup
 
-    for group, course_id in TRANS.items():
-        # 读取 HTML 文件
-        try:
-            with open(group + '.html', 'r', encoding='utf-8') as file:
-                html = file.read()
-            # 使用 BeautifulSoup 解析
-            soup = BeautifulSoup(html, 'html.parser')
-            rows = soup.select('tr.course-tr')
-            for row in rows:
-                number_tag = row.select_one('a.cv-jxb-detail')
-                if not number_tag:
-                    continue
-                number = number_tag['data-number']
-                teachingclassid = number_tag['data-teachingclassid']
-                div: bs4.Tag | None = row.find('td', class_='sjdd')
-                name: str = row.find('td', class_='kcmc').get_text().strip()
-                location : bs4.Tag | None = row.find('td', class_='xq')
-                info = div.get_text().strip() if div is not None else ''
-                loca = location.get_text().strip() if location else ''
-                if number in result: # 说明是number相同，id不同的课程，存储为同number下的list
-                    if isinstance(result[number], list):
-                        result[number].append({
-                            'teachingClassId': teachingclassid,
-                            'courseKind': course_id,
-                            'teachingClassType': group,
-                            "detail": info,
-                            "name": name,
-                            "location": loca
-                        })
-                    else:
-                        result[number] = [result[number], {
-                            'teachingClassId': teachingclassid,
-                            'courseKind': course_id,
-                            'teachingClassType': group,
-                            "detail": info,
-                            "name": name,
-                            "location": loca
-                        }]
-                else:
-                    result[number] = {
-                        'teachingClassId': teachingclassid,
-                        'courseKind': course_id,
-                        'teachingClassType': group,
-                        "detail": info,
-                        "name": name,
-                        "location": loca
-                    }
-        except FileNotFoundError:
-            print(f"File {group}.html not found. Skipping.")
+
+GROUP_TO_KIND = {
+    "ZY": "1",
+    "TY": "2",
+    "GG06": "3",
+    "GG01": "4",
+    "MY": "5",
+    "GG02": "6,7",
+    "YD": "8",
+    "KZY": "12",
+    "TX01": "13",
+    "TX02": "14",
+    "TX03": "15",
+    "TX04": "16",
+}
+HERE = Path(__file__).resolve().parent
+REPO_ROOT = HERE.parent
+
+
+def _text(row, selector: str) -> str:
+    cell = row.select_one(selector)
+    return cell.get_text(" ", strip=True) if cell else ""
+
+
+def parse_course_files(course_dir: Path) -> dict[str, Any]:
+    grouped: dict[str, list[dict[str, str]]] = {}
+    for group, course_kind in GROUP_TO_KIND.items():
+        html_path = course_dir / f"{group}.html"
+        if not html_path.exists():
             continue
+        soup = BeautifulSoup(html_path.read_text(encoding="utf-8"), "html.parser")
+        for row in soup.select("tr.course-tr"):
+            number_tag = row.select_one("a.cv-jxb-detail")
+            if number_tag is None:
+                continue
+            number = number_tag.get("data-number") or number_tag.get("data-course-number")
+            teaching_class_id = number_tag.get("data-teachingclassid") or number_tag.get(
+                "data-teaching-class-id"
+            )
+            if not number or not teaching_class_id:
+                continue
+            course = {
+                "teachingClassId": teaching_class_id,
+                "courseKind": course_kind,
+                "teachingClassType": group,
+                "detail": _text(row, "td.sjdd"),
+                "name": _text(row, "td.kcmc"),
+                "location": _text(row, "td.xq"),
+            }
+            grouped.setdefault(number, []).append(course)
+
+    return {
+        number: items[0] if len(items) == 1 else items
+        for number, items in grouped.items()
+    }
 
 
-    with open('../new_courses.json', 'w', encoding='utf-8') as f:
-        json.dump(result, f, ensure_ascii=False, indent=4)
+def main() -> None:
+    parser = argparse.ArgumentParser(description="将选课网页 HTML 快照转换为课程索引")
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=REPO_ROOT / "new_courses.json",
+        help="输出 JSON 路径，默认写入 new_courses.json",
+    )
+    args = parser.parse_args()
+    catalog = parse_course_files(HERE)
+    args.output.write_text(
+        json.dumps(catalog, ensure_ascii=False, indent=4) + "\n",
+        encoding="utf-8",
+    )
+    print(f"已生成 {len(catalog)} 个课程号：{args.output}")
+
+
+if __name__ == "__main__":
+    main()

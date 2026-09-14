@@ -1,0 +1,5 @@
+user.json
+__pycache__/
+course/__pycache__/
+.venv/
+backup_*/

@@ -1,7 +1,7 @@
+from __future__ import annotations
+
 import base64
-import json
-import re
-import time
+from typing import Any
 
 import cv2
 import numpy as np
@@ -10,95 +10,117 @@ import requests
 from auto_code import solve_query
 
 
+BASE_URL = "https://xk.nju.edu.cn/xsxkapp"
+REQUEST_TIMEOUT = 20
+
+
 def extract_vcode_image(src: str) -> np.ndarray:
-    header, b64_data = src.split(",", 1)
+    _, b64_data = src.split(",", 1)
     img_bytes = base64.b64decode(b64_data)
-
-    # 解码为图像（OpenCV 格式：BGR ndarray）
-    arr = np.frombuffer(img_bytes, dtype=np.uint8)
-    img = cv2.imdecode(arr, cv2.IMREAD_COLOR)  # shape: (H, W, 3)
-
-    if img is None:
-        raise ValueError("图像解码失败：检查 base64 格式是否正确")
-
-    return img  # 返回 OpenCV 图像格式
-
-def get_captcha_and_token(session) -> tuple[np.ndarray, str]:
-    resp = session.post("https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/student/4/vcode.do")
-    data = resp.json()["data"]
-    img = extract_vcode_image(data["vode"])
-    uuid = data["uuid"]
-    return img, uuid
+    image = cv2.imdecode(np.frombuffer(img_bytes, dtype=np.uint8), cv2.IMREAD_COLOR)
+    if image is None:
+        raise ValueError("验证码图片解码失败")
+    return image
 
 
-def login(xh: str, pwd: str, agent: str, code: bool) -> tuple[requests.Session, str]:
-    """
-    :param xh: 学号
-    :param pwd: 密码（已加密）
-    :param agent: User-Agent
-    :param solve_query: 验证码图像识别函数，输入 bytes -> 输出 [(x1, y1), (x2, y2), ...]
-    :return: (已登录的 session, xklcdm)
-    """
+def get_captcha_and_token(session) -> tuple[np.ndarray, str, str]:
+    response = session.post(
+        f"{BASE_URL}/sys/xsxkapp/student/4/vcode.do",
+        timeout=REQUEST_TIMEOUT,
+    )
+    response.raise_for_status()
+    payload = response.json()
+    data = payload.get("data") or {}
+    image_data = data.get("vode") or data.get("codeImage")
+    uuid = data.get("uuid")
+    if not image_data or not uuid:
+        raise ValueError(f"验证码接口返回字段不完整：{payload.get('msg', '未知错误')}")
+    return extract_vcode_image(image_data), uuid, data.get("token") or "null"
+
+
+def login(xh: str, pwd: str, agent: str, is_new_student: bool) -> tuple[requests.Session, str]:
     session = requests.Session()
-    session.headers.update({
-        "User-Agent": agent,
-        "Referer": "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do",
-        "Connection": "close",  # 避免连接复用触发底层奇怪状态
-    })
+    session.headers.update(
+        {
+            "User-Agent": agent,
+            "Referer": f"{BASE_URL}/sys/xsxkapp/*default/index.do",
+            "Connection": "close",
+            "X-Requested-With": "XMLHttpRequest",
+        }
+    )
+
     while True:
         try:
-            img, uuid = get_captcha_and_token(session)
-            order = solve_query(img)
-            code_str = ",".join([f"{y}-{x}" for x, y in order])
-            payload = {
-                "loginName": xh,
-                "loginPwd": pwd,
-                "verifyCode": code_str,
-                "vtoken": "null",
-                "uuid": uuid
-            }
-
-            resp = session.post("https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/student/check/login.do", data=payload)
-            res = resp.json()
-            if res.get("code") == '1':
+            image, uuid, vtoken = get_captcha_and_token(session)
+            order = solve_query(image)
+            verify_code = ",".join(f"{x}-{y}" for y, x in order)
+            response = session.post(
+                f"{BASE_URL}/sys/xsxkapp/student/check/login.do",
+                data={
+                    "loginName": xh,
+                    "loginPwd": pwd,
+                    "verifyCode": verify_code,
+                    "vtoken": vtoken,
+                    "uuid": uuid,
+                },
+                timeout=REQUEST_TIMEOUT,
+            )
+            payload = response.json()
+            if str(payload.get("code")) == "1":
                 print("✅ 登录成功")
                 break
-            else:
-                print(f"⚠️ 登录失败，原因：{res.get('msg', '未知错误')}，正在重试...")
-                continue
-        except Exception as e:
-            print(f"⚠️ 发生异常：{e}，正在重试...")
+            print(f"⚠️ 登录失败，原因：{payload.get('msg', '未知错误')}，正在重试...")
+        except Exception as exc:
+            print(f"⚠️ 登录请求异常：{exc}，正在重试...")
 
-    login_token = res["data"]["token"]
+    data = payload.get("data") or {}
+    login_token = data.get("token")
+    if not login_token:
+        raise RuntimeError("登录成功但未返回会话令牌")
+    session.headers.update({"token": login_token})
 
-    # 更新 session headers 添加 token
-    session.headers.update({
-        "token": login_token
-    })
-
-    xklcdm = get_xklcdm(session, code)
-
-    print(f"✅ 当前选课轮次为：{xklcdm}")
-    return session, xklcdm
+    batch_code = get_xklcdm(session, is_new_student)
+    print(f"✅ 当前选课轮次为：{batch_code}")
+    return session, batch_code
 
 
-def get_xklcdm(session, code = False) -> str:
-    url = "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/elective/batch.do"
-    resp = session.post(url)
-    resp.raise_for_status()
-    data = resp.json()
+def _batch_code(batch: dict[str, Any]) -> str | None:
+    value = batch.get("code") or batch.get("batchCode")
+    return str(value) if value not in (None, "") else None
 
-    if data.get("code") != "1":
-        raise Exception("获取 batch 信息失败")
 
-    # for batch in data.get("dataList", []):
-    #     return batch["code"]
-    # code 为True表示新生，选择第二个。
-    if code:
-        if len(data.get("dataList", [])) >= 2:
-            return data["dataList"][1]["code"]
+def _is_selectable(batch: dict[str, Any]) -> bool:
+    value = batch.get("canSelect")
+    return value in (True, 1, "1", "true", "True")
+
+
+def _matches_student_type(batch: dict[str, Any], is_new_student: bool) -> bool:
+    name = str(batch.get("name") or batch.get("batchName") or "")
+    expected = "新生" if is_new_student else "老生"
+    return expected in name
+
+
+def get_xklcdm(session, is_new_student: bool = False) -> str:
+    response = session.post(
+        f"{BASE_URL}/sys/xsxkapp/elective/batch.do",
+        timeout=REQUEST_TIMEOUT,
+    )
+    response.raise_for_status()
+    payload = response.json()
+    if str(payload.get("code")) != "1":
+        raise RuntimeError(f"获取选课轮次失败：{payload.get('msg', '未知错误')}")
+
+    batches = payload.get("dataList") or []
+    typed = [batch for batch in batches if _matches_student_type(batch, is_new_student)]
+    if typed:
+        selectable = [batch for batch in typed if _is_selectable(batch)]
+        chosen = (selectable or typed)[0]
     else:
-        if len(data.get("dataList", [])) >= 1:
-            return data["dataList"][0]["code"]
+        active = [batch for batch in batches if str(batch.get("active")) == "1"]
+        selectable = [batch for batch in batches if _is_selectable(batch)]
+        chosen = (active or selectable or batches)[0] if batches else None
 
-    raise Exception("未找到可选的选课轮次")
+    code = _batch_code(chosen) if chosen else None
+    if not code:
+        raise RuntimeError("未找到可用的选课轮次")
+    return code
